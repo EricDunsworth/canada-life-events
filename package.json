@@ -1,0 +1,38 @@
+{
+	"name": "canada-life-events",
+	"version": "1.0.0",
+	"description": "Canada.ca Life events",
+	"main": "index.html",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ServiceCanada/canada-life-events.git"
+	},
+	"keywords": [
+		"Life",
+		"Events",
+		"Canada-ca"
+	],
+	"author": "ServiceCanada",
+	"license": "MIT",
+	"homepage": "https://servicecanada.github.io/canada-life-events/",
+	"devDependencies": {
+		"grunt": "^1.6.1",
+		"grunt-banner": "^0.6.0",
+		"grunt-contrib-clean": "^2.0.1",
+		"grunt-contrib-cssmin": "^5.0.0",
+		"grunt-contrib-jshint": "^3.2.0",
+		"grunt-contrib-uglify": "^5.2.2",
+		"grunt-eslint": "^24.3.0",
+		"grunt-htmllint": "^0.3.0"
+	},
+	"browserslist": [
+		"defaults",
+		"not IE 11",
+		"last 2 versions",
+		"not dead",
+		"Safari >= 10",
+		"Chrome >= 60",
+		"Edge >= 16",
+		"Firefox >= 60"
+	]
+}

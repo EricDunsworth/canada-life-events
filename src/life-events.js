@@ -1,0 +1,1 @@
+// Life events JavaScript source file
