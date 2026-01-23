@@ -10,14 +10,14 @@ This project is a Jekyll-based website template using the GCWeb theme. It integr
 - **GCWeb Theme** for accessibility compliance
 - **Grunt** for task automation
 
-## GH Pages dev environement setup
+## GH Pages dev environment setup
 
  1. Fork the repository
  2. Activate GH Pages in your fork
- 3. Edit your content through Github
+ 3. Edit your content through GitHub
  4. Open a pull request
 
-## Local dev environement setup
+## Local dev environment setup
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ Jekyll website
 project-root/
 ├── _config.yml       # Jekyll configuration
 ├── Gruntfile.js      # Task running
-├── package.json      # Contain the version number of Canada.ca Life Events
+├── package.json      # Contains the version number of Canada.ca Life Events
 ├── Gemfile           # Ruby dependencies
 └── README.md         # Project documentation
 ```
