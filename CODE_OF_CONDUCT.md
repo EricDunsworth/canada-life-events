@@ -86,7 +86,7 @@ Voici des exemples de comportements inacceptables de la part des participants :
 * L'utilisation d'un langage ou d'images sexualisés et d'une attention sexuelle importunée, ou percées
 * Trollage, commentaires insultants ou méprisants, et attaques personnelles ou politiques
 * Harcèlement public ou privé
-* La publication d'informations privées d'autrui, telles que des informations physiques ou électroniques. adresse, sans autorisation explicite
+* La publication d'informations privées d'autrui, telles que des adresses physiques ou électroniques, sans autorisation explicite
 * Tout autre comportement qui pourrait raisonnablement être considéré comme inapproprié dans le cadre d'une enquête du contexte professionnel
 
 ## Nos responsabilités
@@ -97,8 +97,8 @@ Les responsables de projet ont le droit et la responsabilité de supprimer, d'é
 
 ## Portée
 
-Ce Code de conduite s'applique dans tous les espaces du projet, et il s'applique également lorsqu'une personne représente le projet, sa communauté dans les espaces publics ou Emploi et développement social Canada.
-Des exemples de représentation d'un projet, d'une collectivité ou Emploi et développement social Canada comprennent l'utilisation d'un représentant officiel de l'adresse électronique du projet, l'affichage par l'entremise d'un compte officiel de médias sociaux ou le fait d'agir à titre intérimaire en tant que représentant désigné lors d'un événement en ligne ou hors ligne.
+Ce Code de conduite s'applique dans tous les espaces du projet, et il s'applique également lorsqu'une personne représente le projet, sa communauté dans les espaces publics ou Emploi et Développement social Canada.
+Des exemples de représentation d'un projet, d'une collectivité ou Emploi et Développement social Canada comprennent l'utilisation d'un représentant officiel de l'adresse électronique du projet, l'affichage par l'entremise d'un compte officiel de médias sociaux ou le fait d'agir à titre intérimaire en tant que représentant désigné lors d'un événement en ligne ou hors ligne.
 La représentation d'un projet peut être mieux définie et clarifiée par les responsables du projet.
 
 ## Application des règles

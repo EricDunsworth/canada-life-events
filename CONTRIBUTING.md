@@ -9,7 +9,7 @@ When contributing, feel free to propose changes by creating Pull Requests.
 In general, a change request for either maintenance purposes or for the addition of a new feature (or both), should be initiated as such:
 
 - Internally within Principal publisher at any time;
-- By the vendor AFTER providing some form of notice (verbally or by writting) to Principal Publisher stipulating that a change request is required;
+- By the vendor AFTER providing some form of notice (verbally or by writing) to Principal Publisher stipulating that a change request is required;
 - By the vendor AFTER being explicitly requested by Principal Publisher to contribute into a specific change request;
 - Other methods of initiating a change request could be considered and Principal publisher reserves the right to accept or decline.
 
