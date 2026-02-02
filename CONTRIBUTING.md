@@ -4,7 +4,7 @@
 
 ## How to Contribute
 
-When contributing, feel free to propose changes by creating Pull Requests. 
+When contributing, feel free to propose changes by creating Pull Requests.
 
 In general, a change request for either maintenance purposes or for the addition of a new feature (or both), should be initiated as such:
 
