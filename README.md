@@ -28,6 +28,11 @@ Before you begin, ensure you have the following installed:
 - **Node.js & npm** (Check with `node -v` and `npm -v`)
 - **Grunt CLI** (`npm install -g grunt-cli`)
 
+### Software (Windows)
+
+- [Git for Windows](https://gitforwindows.org/)
+- [Node.js](https://nodejs.org/en/download) (recommended version... [active LTS release](https://nodejs.org/en/about/previous-releases))
+- [RubyInstaller for Windows](https://rubyinstaller.org/downloads/) (recommended **Ruby+Devkit** version)
 
 ### Installation
 
