@@ -54,7 +54,7 @@ module.exports = function(grunt) {
 				"id-class-style": "dash",
 				"indent-style": "tabs",
 				"indent-width": 4,
-				"line-end-style": "lf",
+				"line-end-style": false,
 				"attr-no-unsafe-char": false
 			}
 		},
