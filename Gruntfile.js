@@ -45,7 +45,10 @@ module.exports = function(grunt) {
 
 		htmllint: {
 			all: {
-				src: ["*.html"]
+				src: [
+					"*.html",
+					"pages/**/*.html"
+				]
 			},
 
 			options: {
