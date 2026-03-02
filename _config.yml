@@ -3,7 +3,7 @@ plugins:
 
 remote_theme: wet-boew/gcweb-jekyll
 
-title: Canada.ca Life events themes
+title: Canada.ca life events themes
 
 defaults:
   - scope:

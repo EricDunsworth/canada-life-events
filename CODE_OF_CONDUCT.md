@@ -1,14 +1,14 @@
-# Contributor Covenant Code of Conduct for the Canada.ca Life events project
+# Contributor Covenant code of conduct for the Canada.ca life events project
 
 ([Français](#code-de-conduite-pour-le-projet-evenements-de-la-vie))
 
-Contributors to repositories hosted in Canada.ca Life events are expected to follow the Contributor Covenant Code of Conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
+Contributors to repositories hosted in Canada.ca life events are expected to follow the Contributor Covenant code of conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
 
-## Our Pledge
+## Our pledge
 
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-## Our Standards
+## Our standards
 
 Examples of behavior that contributes to creating a positive environment include:
 
@@ -26,15 +26,15 @@ Examples of unacceptable behavior by participants include:
 * Publishing others' private information, such as a physical or electronic address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a professional setting
 
-## Our Responsibilities
+## Our responsibilities
 
 Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this code of conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project, members or Employment and Social Development Canada.
+This code of conduct applies both within project spaces and in public spaces when an individual is representing the project, members or Employment and Social Development Canada.
 Examples of representing a project, members or Employment and Social Development Canada include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 Representation of a project may be further defined and clarified by project maintainers.
 
@@ -48,15 +48,15 @@ The project team is obligated to maintain confidentiality with regard to the rep
 
 Further details of specific enforcement policies may be posted separately.
 
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+Project maintainers who do not follow or enforce the code of conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
 ## Attribution [EN]
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
+This code of conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
 
 [homepage]: https://www.contributor-covenant.org
 
-This Code of Conduct is also inspired by GDS' `alphagov` [Code of conduct](https://github.com/alphagov/code-of-conduct).
+This code of conduct is also inspired by GDS' `alphagov` [code of conduct](https://github.com/alphagov/code-of-conduct).
 
 ---
 <!--markdownlint-disable MD025-->
@@ -65,7 +65,7 @@ This Code of Conduct is also inspired by GDS' `alphagov` [Code of conduct](https
 
 ([English](#contributor-covenant-code-of-conduct-for-the-life-events-project))
 
-Les contributeurs aux dépôts hébergés dans le projet Événements de la vie pour Canada.ca sont tenus de respecter le Code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le [Code de valeurs et d'éthique du secteur public](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=25049).
+Les contributeurs aux dépôts hébergés dans le projet Événements de la vie pour Canada.ca sont tenus de respecter le code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le [Code de valeurs et d'éthique du secteur public](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=25049).
 
 ## Notre engagement
 
@@ -93,11 +93,11 @@ Voici des exemples de comportements inacceptables de la part des participants :
 
 Les responsables de la mise à jour du projet ont la responsabilité de clarifier les normes d'acceptabilité et on s'attend à ce qu'ils prennent des mesures correctives appropriées et équitables en cas de comportement inacceptable.
 
-Les responsables de projet ont le droit et la responsabilité de supprimer, d'éditer ou de rejeter les commentaires, les soumissions (commits), le code, les éditions du wiki, les problèmes et autres contributions qui ne sont pas conformes au présent Code de conduite, ou d'interdire temporairement ou définitivement tout contributeur pour d'autres comportements qu'ils jugent inappropriés, menaçant, offensant ou nuisible.
+Les responsables de projet ont le droit et la responsabilité de supprimer, d'éditer ou de rejeter les commentaires, les soumissions (commits), le code, les éditions du wiki, les problèmes et autres contributions qui ne sont pas conformes au présent code de conduite, ou d'interdire temporairement ou définitivement tout contributeur pour d'autres comportements qu'ils jugent inappropriés, menaçant, offensant ou nuisible.
 
 ## Portée
 
-Ce Code de conduite s'applique dans tous les espaces du projet, et il s'applique également lorsqu'une personne représente le projet, sa communauté dans les espaces publics ou Emploi et Développement social Canada.
+Ce code de conduite s'applique dans tous les espaces du projet, et il s'applique également lorsqu'une personne représente le projet, sa communauté dans les espaces publics ou Emploi et Développement social Canada.
 Des exemples de représentation d'un projet, d'une collectivité ou Emploi et Développement social Canada comprennent l'utilisation d'un représentant officiel de l'adresse électronique du projet, l'affichage par l'entremise d'un compte officiel de médias sociaux ou le fait d'agir à titre intérimaire en tant que représentant désigné lors d'un événement en ligne ou hors ligne.
 La représentation d'un projet peut être mieux définie et clarifiée par les responsables du projet.
 
@@ -111,12 +111,12 @@ L'équipe de projet est dans l'obligation de respecter la confidentialité à l'
 
 De plus amples détails sur les politiques d'application spécifiques peuvent être affichés séparément.
 
-Les responsables de projet qui ne respectent pas ou n'appliquent pas le Code de conduite en bonne et due forme peuvent faire face à des répercussions temporaires ou permanentes déterminées par d'autres membres de la direction du projet.
+Les responsables de projet qui ne respectent pas ou n'appliquent pas le code de conduite en bonne et due forme peuvent faire face à des répercussions temporaires ou permanentes déterminées par d'autres membres de la direction du projet.
 
 ## Attribution [FR]
 
-Le présent Code de conduite est adapté de la version 1.4 du [Pacte du contributeur][page d'accueil], disponible à l'adresse [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
+Le présent code de conduite est adapté de la version 1.4 du [Pacte du contributeur][page d'accueil], disponible à l'adresse [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
 
 [page d'accueil]: https://www.contributor-covenant.org
 
-Le présent Code de conduite s'inspire également du « Code de conduite » du [alphaGov](https://github.com/alphagov/code-of-conduct) de GDS.
+Le présent code de conduite s'inspire également du « code de conduite » du [alphaGov](https://github.com/alphagov/code-of-conduct) de GDS.
