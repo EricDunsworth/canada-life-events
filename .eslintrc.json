@@ -14,7 +14,8 @@
   },
   "globals": {
     "DOMPurify": "readonly",
-    "JSON": true
+    "JSON": true,
+    "wb": true
   },
   "rules": {
     "indent": ["error", "tab", { "outerIIFEBody": 0 }],
