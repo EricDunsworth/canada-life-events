@@ -28,7 +28,7 @@ exclude:
   - package.json
   - package-lock.json
   - LICENSE
-  - CONDE_OF_CONDUCT.md
+  - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
   - SECURITY.md
   - README.md
