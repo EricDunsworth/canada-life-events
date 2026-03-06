@@ -1,4 +1,4 @@
-# Canada.ca Life Events
+# Canada.ca life events
 
 ## Overview
 
@@ -23,7 +23,7 @@ This project is a Jekyll-based website template using the GCWeb theme. It integr
 ## Features
 
 - **Jekyll** for static site generation
-- **GCWeb Theme** for accessibility compliance
+- **GCWeb theme** for accessibility compliance
 - **Grunt** for task automation
 
 ## GH Pages dev environment setup
@@ -75,13 +75,13 @@ Before you begin, ensure you have the following installed:
    ```
 2. The processed files will be available in the `dist/` directory.
 
-## File Structure
+## File structure
 Jekyll website
 ```
 project-root/
 ├── _config.yml       # Jekyll configuration
 ├── Gruntfile.js      # Task running
-├── package.json      # Contains the version number of Canada.ca Life Events
+├── package.json      # Contains the version number of Canada.ca life events
 ├── Gemfile           # Ruby dependencies
 └── README.md         # Project documentation
 ```

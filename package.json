@@ -1,7 +1,7 @@
 {
 	"name": "canada-life-events",
 	"version": "1.0.0",
-	"description": "Canada.ca Life events",
+	"description": "Canada.ca life events",
 	"main": "index.html",
 	"repository": {
 		"type": "git",
