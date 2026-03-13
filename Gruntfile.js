@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 		uglify: {
 			options: {
 				banner: "/*!\n * Canada.ca life events / Événements de la vie pour Canada.ca\n" +
-				" * @license https://github.com/ServiceCanada/canada-life-events/?tab=MIT-1-ov-file\n" +
+				" * @license https://github.com/ServiceCanada/canada-life-events?tab=License-1-ov-file\n" +
 				" * v<%= pkg.version %> - " + "<%= grunt.template.today('yyyy-mm-dd') %>\n*/"
 			},
 
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
 				options: {
 					position: "top",
 					banner: "/*!\n * Canada.ca life events / Événements de la vie pour Canada.ca\n" +
-					" * @license https://github.com/ServiceCanada/canada-life-events/?tab=MIT-1-ov-file\n" +
+					" * @license https://github.com/ServiceCanada/canada-life-events?tab=License-1-ov-file\n" +
 					" * v<%= pkg.version %> - " + "<%= grunt.template.today('yyyy-mm-dd') %>\n*/",
 					linebreak: true
 				},
