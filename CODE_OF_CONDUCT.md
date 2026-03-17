@@ -10,7 +10,7 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 ## Our standards
 
-Examples of behavior that contributes to creating a positive environment include:
+Examples of behaviour that contributes to creating a positive environment include:
 
 * Using welcoming and inclusive language
 * Being respectful of differing viewpoints and experiences
@@ -18,7 +18,7 @@ Examples of behavior that contributes to creating a positive environment include
 * Focusing on what is best for the department
 * Showing empathy towards other members
 
-Examples of unacceptable behavior by participants include:
+Examples of unacceptable behaviour by participants include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or advances
 * Trolling, insulting/derogatory comments, and personal or political attacks
@@ -28,9 +28,9 @@ Examples of unacceptable behavior by participants include:
 
 ## Our responsibilities
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+Project maintainers are responsible for clarifying the standards of acceptable behaviour and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behaviour.
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this code of conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this code of conduct, or to ban temporarily or permanently any contributor for other behaviours that they deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
@@ -40,7 +40,7 @@ Representation of a project may be further defined and clarified by project main
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team via a contact method listed on [Principal Publisher's GCpedia page](https://www.gcpedia.gc.ca/wiki/Principal_Publisher_at_Service_Canada).
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported by contacting the project team via a contact method listed on [Principal Publisher's GCpedia page](https://www.gcpedia.gc.ca/wiki/Principal_Publisher_at_Service_Canada).
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances.
 
