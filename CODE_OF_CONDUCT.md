@@ -2,7 +2,7 @@
 
 ([Français](#code-de-conduite-pour-le-projet-événements-de-la-vie-pour-canadaca))
 
-Contributors to repositories hosted in Canada.ca life events are expected to follow the Contributor Covenant code of conduct, and those working within Government are also expected to follow the [Values and Ethics Code for the Public Sector](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049)
+Contributors to repositories hosted in Canada.ca life events are expected to follow the Contributor Covenant code of conduct, and those working within Government are also expected to follow the [Values and Ethics Code for the Public Sector](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049).
 
 ## Our pledge
 
