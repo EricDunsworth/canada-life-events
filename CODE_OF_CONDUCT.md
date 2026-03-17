@@ -1,4 +1,4 @@
-# Contributor Covenant code of conduct for the Canada.ca life events project
+# Code of conduct for the Canada.ca life events project
 
 ([Français](#code-de-conduite-pour-le-projet-événements-de-la-vie-pour-canadaca))
 
@@ -63,7 +63,7 @@ This code of conduct is also inspired by GDS' `alphagov` [code of conduct](https
 # Code de conduite pour le projet Événements de la vie pour Canada.ca
 <!--markdownlint-enable MD025-->
 
-([English](#contributor-covenant-code-of-conduct-for-the-canadaca-life-events-project))
+([English](#code-of-conduct-for-the-canadaca-life-events-project))
 
 Les contributeurs aux dépôts hébergés dans le projet Événements de la vie pour Canada.ca sont tenus de respecter le code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le [Code de valeurs et d'éthique du secteur public](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=25049).
 
