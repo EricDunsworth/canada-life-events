@@ -28,10 +28,10 @@ This project is a Jekyll-based website template using the GCWeb theme. It integr
 
 ## GH Pages dev environment setup
 
- 1. Fork the repository
- 2. Activate GH Pages in your fork
- 3. Edit your content through GitHub
- 4. Open a pull request
+1. Fork the repository
+2. Activate GH Pages in your fork
+3. Edit your content through GitHub
+4. Open a pull request
 
 ## Local dev environment setup
 
