@@ -115,8 +115,8 @@ Les responsables de projet qui ne respectent pas ou n'appliquent pas le code de 
 
 ## Attribution [FR]
 
-Le présent code de conduite est adapté de la version 1.4 du [Pacte du contributeur][page d'accueil], disponible à l'adresse [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).
+Le présent code de conduite est adapté de la version 1.4 du [Pacte du contributeur (anglais seulement)][page d'accueil], disponible à l'adresse [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html (anglais seulement)](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).
 
 [page d'accueil]: https://www.contributor-covenant.org
 
-Le présent code de conduite s'inspire également du [« code de conduite » du alphaGov](https://github.com/alphagov/.github/blob/main/CODE_OF_CONDUCT.md) de GDS.
+Le présent code de conduite s'inspire également du [« code de conduite » du alphaGov (anglais seulement)](https://github.com/alphagov/.github/blob/main/CODE_OF_CONDUCT.md) de GDS.
