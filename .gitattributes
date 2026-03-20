@@ -1,0 +1,17 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+* text=auto
+
+# These files are text and should be normalized (convert crlf => lf) and diffed appropriately
+*.css text diff=css
+*.html text diff=html
+*.js text
+*.json text
+*.lock text
+*.md text diff=markdown
+*.yml text
+
+# Images should be treated as binary (binary is a macro for -text -diff)
+*.png binary
+
+# Lock files should be ignored from file statistics and hidden in diffs by default
+package-lock.json linguist-generated
