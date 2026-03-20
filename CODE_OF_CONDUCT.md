@@ -1,8 +1,8 @@
-# Contributor Covenant code of conduct for the Canada.ca life events project
+# Code of conduct for the Canada.ca life events project
 
-([Français](#code-de-conduite-pour-le-projet-evenements-de-la-vie))
+([Français](#code-de-conduite-pour-le-projet-événements-de-la-vie-pour-canadaca))
 
-Contributors to repositories hosted in Canada.ca life events are expected to follow the Contributor Covenant code of conduct, and those working within Government are also expected to follow the Values and Ethics Code for the Public Sector
+Contributors to repositories hosted in Canada.ca life events are expected to follow the Contributor Covenant code of conduct, and those working within Government are also expected to follow the [Values and Ethics Code for the Public Sector](https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=25049).
 
 ## Our pledge
 
@@ -10,7 +10,7 @@ In the interest of fostering an open and welcoming environment, we as contributo
 
 ## Our standards
 
-Examples of behavior that contributes to creating a positive environment include:
+Examples of behaviour that contributes to creating a positive environment include:
 
 * Using welcoming and inclusive language
 * Being respectful of differing viewpoints and experiences
@@ -18,7 +18,7 @@ Examples of behavior that contributes to creating a positive environment include
 * Focusing on what is best for the department
 * Showing empathy towards other members
 
-Examples of unacceptable behavior by participants include:
+Examples of unacceptable behaviour by participants include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or advances
 * Trolling, insulting/derogatory comments, and personal or political attacks
@@ -28,9 +28,9 @@ Examples of unacceptable behavior by participants include:
 
 ## Our responsibilities
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+Project maintainers are responsible for clarifying the standards of acceptable behaviour and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behaviour.
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this code of conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this code of conduct, or to ban temporarily or permanently any contributor for other behaviours that they deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
@@ -40,7 +40,7 @@ Representation of a project may be further defined and clarified by project main
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team via a contact method listed on [Principal Publisher's GCpedia page](https://www.gcpedia.gc.ca/wiki/Principal_Publisher_at_Service_Canada).
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported by contacting the project team via a contact method listed on [Principal Publisher's GCpedia page](https://www.gcpedia.gc.ca/wiki/Principal_Publisher_at_Service_Canada).
 
 All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances.
 
@@ -52,18 +52,18 @@ Project maintainers who do not follow or enforce the code of conduct in good fai
 
 ## Attribution [EN]
 
-This code of conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
+This code of conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).
 
 [homepage]: https://www.contributor-covenant.org
 
-This code of conduct is also inspired by GDS' `alphagov` [code of conduct](https://github.com/alphagov/code-of-conduct).
+This code of conduct is also inspired by GDS' [`alphagov` code of conduct](https://github.com/alphagov/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ---
 <!--markdownlint-disable MD025-->
 # Code de conduite pour le projet Événements de la vie pour Canada.ca
 <!--markdownlint-enable MD025-->
 
-([English](#contributor-covenant-code-of-conduct-for-the-life-events-project))
+([English](#code-of-conduct-for-the-canadaca-life-events-project))
 
 Les contributeurs aux dépôts hébergés dans le projet Événements de la vie pour Canada.ca sont tenus de respecter le code de conduite du Pacte des contributeurs, et ceux qui travaillent au sein du gouvernement sont également tenus de respecter le [Code de valeurs et d'éthique du secteur public](https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=25049).
 
@@ -115,8 +115,8 @@ Les responsables de projet qui ne respectent pas ou n'appliquent pas le code de 
 
 ## Attribution [FR]
 
-Le présent code de conduite est adapté de la version 1.4 du [Pacte du contributeur][page d'accueil], disponible à l'adresse [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
+Le présent code de conduite est adapté de la version 1.4 du [Pacte du contributeur (anglais seulement)][page d'accueil], disponible à l'adresse [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html (anglais seulement)](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).
 
 [page d'accueil]: https://www.contributor-covenant.org
 
-Le présent code de conduite s'inspire également du « code de conduite » du [alphaGov](https://github.com/alphagov/code-of-conduct) de GDS.
+Le présent code de conduite s'inspire également du [« code de conduite » du alphaGov (anglais seulement)](https://github.com/alphagov/.github/blob/main/CODE_OF_CONDUCT.md) de GDS.
