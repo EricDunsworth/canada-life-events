@@ -360,7 +360,10 @@ ul:where(.list-unstyled .list-unstyled ul) ul {
 /*Extras for the landing page's darkened quiz/calculator boxes*/
 /*TODO: Status quo is sloppy, can probably use a white text class in practice and move the background colour to another pre-existing selector*/
 .retirement-hub .quiz-content {
-	background-color: #0A747D;
+	/* background-color: #65BBC3;
+	color: #000000;
+	background-color: #0A747D;*/
+	background-color: #0B7F89; /*Brighter teal tone specifically for the landing page's questionnaire box*/
 	color: #fff;
 }
 
@@ -630,6 +633,24 @@ ul:where(.list-unstyled .list-unstyled ul) ul {
 	display: block !important;
 }*/
 /*NOTE: Had to undo it and remove nojs-show classes from tag filter items... that selector couldn't handle showing all items when nothing was "tagged-out"... couldn't come up with another selector that could handle that scenario.*/
+
+/*Undo https://github.com/wet-boew/wet-boew/pull/10077's changes to summary arrows*/
+.retirement-hub details summary {
+    padding: 5px 15px;
+    text-indent: revert;
+}
+
+/*Make the landing page's calculator box use any "leftover" height (in case the cards on the right surpass the left panel's total height)*/
+/*Note: Port of namesake class from Bootstrap 4.1 and over/*
+/*TODO: Backport to WET utility classes*/
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
+/*AI answers (background colour)*/
+.retirement-hub .retirement-hub-aia {
+	background-color: #E8F2F7;
+}
 
 
 /*
