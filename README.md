@@ -98,4 +98,4 @@ See [SECURITY.md](SECURITY.md)
 
 ## License
 
-See [LICENSE.md](LICENSE)
+See [LICENSE.md](LICENSE.md)
