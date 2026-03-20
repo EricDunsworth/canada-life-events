@@ -6,6 +6,8 @@
 
 ______________________
 
+<div lang="fr">
 ## Sécurité
 
 **Ne publiez aucun problème de sécurité sur le dépôt publique!** Les vulnérabilités de sécurité doivent être signalées via une méthode de contact proposée sur la page GCpédia de l'Éditeur principal : https://www.gcpedia.gc.ca/wiki/%C3%89diteur_principal_de_Service_Canada.
+</div>

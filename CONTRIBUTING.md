@@ -23,6 +23,7 @@ If this is your first time contributing on GitHub, don't worry! Let us know if y
 
 ______________________
 
+<div lang="fr">
 ## Comment contribuer
 
 Lorsque vous contribuez, n'hésitez pas à proposer des modifications en créant des demandes de tirage (pull requests).
@@ -41,3 +42,4 @@ Si c'est la première fois que vous contribuez à GitHub, ne vous en faites pas!
 ### Sécurité
 
 **Ne publiez aucun problème de sécurité sur le dépôt publique!** Voir [SECURITY.md](SECURITY.md)
+</div>
