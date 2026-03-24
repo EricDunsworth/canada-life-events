@@ -66,7 +66,7 @@ module.exports = function(grunt) {
 			all: {
 				options: {
 					esversion: 11,
-					"-W067": true	// To ignore Unorthodox function invocation
+					"-W067": true	// To ignore "Unorthodox function invocation"
 				},
 				src: ["Gruntfile.js", "src/life-events.js"]
 			}
