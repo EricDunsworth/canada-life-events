@@ -24,9 +24,9 @@ pages:
     - title: Retirement Hub theme
       language: en
       path: retirement.html
-    - title: anding page layout
+    - title: Landing page layout
       language: en
-      path: Landing.html
+      path: landing.html
     - title: Stories page layout
       language: en
       path: stories.html
