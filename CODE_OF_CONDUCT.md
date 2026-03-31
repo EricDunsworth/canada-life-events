@@ -59,6 +59,7 @@ This code of conduct is adapted from the [Contributor Covenant][homepage], versi
 This code of conduct is also inspired by GDS' [`alphagov` code of conduct](https://github.com/alphagov/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ---
+<div lang="fr">
 <!--markdownlint-disable MD025-->
 # Code de conduite pour le projet Événements de la vie pour Canada.ca
 <!--markdownlint-enable MD025-->
@@ -120,3 +121,4 @@ Le présent code de conduite est adapté de la version 1.4 du [Pacte du contribu
 [page d'accueil]: https://www.contributor-covenant.org
 
 Le présent code de conduite s'inspire également du [« code de conduite » du alphaGov (anglais seulement)](https://github.com/alphagov/.github/blob/main/CODE_OF_CONDUCT.md) de GDS.
+</div>
