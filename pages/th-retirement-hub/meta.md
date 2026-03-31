@@ -23,7 +23,10 @@ pages:
   examples:
     - title: Retirement Hub theme
       language: en
-      path: retirement.html
+      path: retirement-hub.html
+    - title: Thème Carrefour retraite
+      language: fr
+      path: retirement-hub-fr.html
     - title: Landing page layout
       language: en
       path: landing.html
