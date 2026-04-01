@@ -62,16 +62,6 @@ module.exports = function(grunt) {
 			}
 		},
 
-		jshint: {
-			all: {
-				options: {
-					esversion: 11,
-					"-W067": true	// To ignore "Unorthodox function invocation"
-				},
-				src: ["Gruntfile.js", "src/life-events.js"]
-			}
-		},
-
 		eslint: {
 			options: {
 				overrideConfigFile: ".eslintrc.json",
@@ -84,7 +74,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-clean");
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-cssmin");
-	grunt.loadNpmTasks("grunt-contrib-jshint");
 	grunt.loadNpmTasks("grunt-banner");
 	grunt.loadNpmTasks("grunt-htmllint");
 	grunt.loadNpmTasks("grunt-eslint");
@@ -96,5 +85,5 @@ module.exports = function(grunt) {
 		grunt.file.write("dist/life-events.min.css", content);
 	});
 
-	grunt.registerTask("default", ["clean", "htmllint", "jshint", "eslint", "uglify", "cssmin", "usebanner", "fixLineEndings"]);
+	grunt.registerTask("default", ["clean", "htmllint", "eslint", "uglify", "cssmin", "usebanner", "fixLineEndings"]);
 };
