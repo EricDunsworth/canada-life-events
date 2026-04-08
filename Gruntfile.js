@@ -64,7 +64,7 @@ module.exports = function(grunt) {
 
 		eslint: {
 			options: {
-				overrideConfigFile: ".eslintrc.json"
+				overrideConfigFile: "eslint.config.mjs"
 			},
 			target: ["Gruntfile.js", "src/life-events.js"]
 		}
