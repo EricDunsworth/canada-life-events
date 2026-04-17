@@ -99,6 +99,6 @@ if (puppetMaster) {
 
 try {
 	document.getElementById("wb-lng").getElementsByTagName("a")[0].href += window.location.search;
-} catch(e) {
+} catch {
 	console.log("Could not find other language link");
 }
