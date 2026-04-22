@@ -22,7 +22,7 @@
 		"grunt-contrib-cssmin": "^5.0.0",
 		"grunt-contrib-uglify": "^5.2.2",
 		"grunt-eslint": "^26.0.0",
-		"grunt-htmllint": "^0.3.0"
+		"grunt-html": "^18.0.2"
 	},
 	"browserslist": [
 		"defaults",

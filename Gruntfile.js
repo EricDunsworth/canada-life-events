@@ -45,20 +45,27 @@ module.exports = function(grunt) {
 
 		htmllint: {
 			all: {
+				options: {
+					ignore: [
+						// Errors
+						"Non-space characters found without seeing a doctype first. Expected “<!DOCTYPE html>”.",
+						"Element “head” is missing a required instance of child element “title”.",
+
+						// Errors caused by Jekyll/Liquid logic
+						"Stray end tag “h1”.",
+						"Text not allowed in element “ul” in this context.",
+
+						// Info messages
+						"Consider adding a “lang” attribute to the “html” start tag to declare the language of this document.",
+						"This document appears to be written in English. Consider adding “lang=\"en\"” (or variant) to the “html” start tag.",
+						"This document appears to be written in French. Consider adding “lang=\"fr\"” (or variant) to the “html” start tag.",
+						"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values."
+					]
+				},
 				src: [
 					"*.html",
 					"pages/**/*.html"
 				]
-			},
-
-			options: {
-				"attr-name-style": "dash",
-				"attr-quote-style": false,
-				"id-class-style": "dash",
-				"indent-style": "tabs",
-				"indent-width": 4,
-				"line-end-style": false,
-				"attr-no-unsafe-char": false
 			}
 		},
 
@@ -74,7 +81,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-contrib-uglify");
 	grunt.loadNpmTasks("grunt-contrib-cssmin");
 	grunt.loadNpmTasks("grunt-banner");
-	grunt.loadNpmTasks("grunt-htmllint");
+	grunt.loadNpmTasks("grunt-html");
 	grunt.loadNpmTasks("grunt-eslint");
 
 	// Task to fix line endings after minification
