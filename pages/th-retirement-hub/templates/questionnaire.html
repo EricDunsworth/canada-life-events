@@ -1,0 +1,216 @@
+---
+{
+	"title": "Questionnaire page layout - Retirement Hub",
+	"dateModified": "2026-04-24",
+	"description": "Questionnaire page CSS styles",
+	"lang": "en",
+	"altLangPage": "questionnaire-fr.html",
+	"breadcrumbs": [
+		{
+			"title": "Life events",
+			"link": "../../../index.html"
+		},
+		{
+			"title": "Retirement Hub",
+			"link": "../../retirement-hub.html"
+		}
+	],
+	"css": "../../../src/life-events.css",
+	"script": [
+		{
+			"src": "../../../src/life-events.js"
+		}
+	],
+	"layout": "no-container"
+}
+---
+<div class="retirement-hub">
+	<div class="bg-right bg-norepeat" data-bgimg-srcset="https://wet-boew.github.io/vocab/wb/utilities#no-image 991w, ../../../assets/th-retirement-hub/subpage-banner-right.png 992w">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7">
+					<h1 property="name" id="wb-cont">Questionnaire</h1>
+					<p class="mrgn-bttm-md">Answer a few questions for guidance on planning your retirement and create a checklist of personalized steps to take.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="gc-featured-link" data-bg-color="#0A747D">
+		<div class="container">
+			<h2 class="wb-inv">Spotlight on</h2>
+			<p>If you need help or someone to talk to, <a class="stretched-link" href="#">visit our mental health support page</a>.</p>
+		</div>
+	</section>
+</div>
+<div class="mrgn-tp-lg container retirement-hub">
+	<section>
+		<h2 class="wb-inv">Questions</h2>
+		<div class="nojs-show">
+			<noscript>
+				<p>To use the questionnaire, please enable JavaScript in your browser settings.</p>
+			</noscript>
+			<p class="wbdisable-show">To use the questionnaire, please <a href="?wbdisable=false">switch to the standard version</a> of this page.</p>
+			<p>Visit the <a href="checklist.html">checklist</a> to view all options and recommendations.</p>
+		</div>
+		<div class="panel panel-default nojs-hide">
+			<div class="panel-body wb-frmvld wb-steps quiz gc-chckbxrdio">
+				<form action="checklist.html" id="quiz-example">
+					<input type="hidden" name="COMMON" value="true">
+					<fieldset>
+						<legend><span class="field-name">At what age would you like to retire?</span></legend>
+						<div>
+							<ul class="list-unstyled lst-spcd-2">
+								<li class="radio">
+									<input type="radio" name="q1" id="q1-1" value="BEFORE_60">
+									<label for="q1-1">Under 60</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q1" id="q1-2" value="BETWEEN_60_65">
+									<label for="q1-2">Between 60 and 65</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q1" id="q1-3" value="65_OVER">
+									<label for="q1-3">At age 65 and over</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q1" id="q1-4" value="ALREADY_RETIRED">
+									<label for="q1-4">Already retired</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q1" id="q1-5" value="NOT_SURE">
+									<label for="q1-5">I don’t know</label>
+								</li>
+							</ul>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend><span class="field-name">Which sources of retirement income do you want to explore?</span></legend>
+						<div>
+							<ul class="list-unstyled lst-spcd-2">
+								<li class="checkbox">
+									<input type="checkbox" name="q2a" id="q2-1" value="GOVERNMENT_PENSIONS_EXPLORE">
+									<label for="q2-1">Public Pensions</label>
+								</li>
+								<li class="checkbox">
+									<input type="checkbox" name="q2b" id="q2-2" value="WORKPLACE_PENSIONS_EXPLORE">
+									<label for="q2-2">Workplace Pensions</label>
+								</li>
+								<li class="checkbox">
+									<input type="checkbox" name="q2c" id="q2-3" value="PERSONAL_SAVINGS_EXPLORE">
+									<label for="q2-3">Personal Savings</label>
+								</li>
+							</ul>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend><span class="field-name">Do you currently receive Canada Pension Plan Disability benefits?</span></legend>
+						<div>
+							<ul class="list-unstyled lst-spcd-2">
+								<li class="radio">
+									<input type="radio" name="q3" id="q3-1" value="YES_CPP_D">
+									<label for="q3-1">Yes</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q3" id="q3-2" value="NO_CPP_D">
+									<label for="q3-2">No</label>
+								</li>
+							</ul>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend><span class="field-name">Do you plan to work during retirement?</span></legend>
+						<div>
+							<ul class="list-unstyled lst-spcd-2">
+								<li class="radio">
+									<input type="radio" name="q4" id="q4-1" value="YES_WORKING">
+									<label for="q4-1">Yes</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q4" id="q4-3" value="NO_WORKING">
+									<label for="q4-3">No</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q4" id="q4-4" value="NOT_SURE_WORKING">
+									<label for="q4-4">I don’t know</label>
+								</li>
+							</ul>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend><span class="field-name">Do you plan on living outside of Canada for more than 6 months per year when you retire?</span></legend>
+						<div>
+							<ul class="list-unstyled lst-spcd-2">
+								<li class="radio">
+									<input type="radio" name="q5" id="q5-2" value="CANADA_PART">
+									<label for="q5-2">Yes</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q5" id="q5-1" value="CANADA_FULL">
+									<label for="q5-1">No</label>
+								</li>
+							</ul>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend><span class="field-name">What is your current marital status?</span></legend>
+						<div>
+							<ul class="list-unstyled lst-spcd-2">
+								<li class="radio">
+									<input type="radio" name="q6" id="q6-1" value="SINGLE">
+									<label for="q6-1">Single</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q6" id="q6-2" value="MARRIED_COMMONLAW">
+									<label for="q6-2">Married or common-law</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q6" id="q6-3" value="DIVORCED_SEPARATED">
+									<label for="q6-3">Divorced or separated</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q6" id="q6-4" value="WIDOWED">
+									<label for="q6-4">Widowed</label>
+								</li>
+							</ul>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend><span class="field-name">Do you want to know how someone can help you with your pension or act on your behalf?</span></legend>
+						<div>
+							<ul class="list-unstyled lst-spcd-2">
+								<li class="radio">
+									<input type="radio" name="q7" id="q7-1" value="YES_HELP">
+									<label for="q7-1">Yes</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q7" id="q7-2" value="NO_SELF">
+									<label for="q7-2">No</label>
+								</li>
+							</ul>
+						</div>
+					</fieldset>
+					<fieldset>
+						<legend><span class="field-name">How confident are you about protecting yourself from fraud and scams?</span></legend>
+						<div>
+							<ul class="list-unstyled lst-spcd-2">
+								<li class="radio">
+									<input type="radio" name="q8" id="q8-1" value="VERY_CONFIDENT_FRAUD">
+									<label for="q8-1">Very confident</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q8" id="q8-2" value="SOMEWHAT_CONFIDENT_FRAUD">
+									<label for="q8-2">Somewhat confident</label>
+								</li>
+								<li class="radio">
+									<input type="radio" name="q8" id="q8-3" value="NOT_CONFIDENT_FRAUD">
+									<label for="q8-3">Not at all confident</label>
+								</li>
+							</ul>
+						</div>
+					</fieldset>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</section>
+</div>

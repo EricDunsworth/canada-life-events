@@ -1,0 +1,518 @@
+---
+{
+	"title": "Disposition de la page de la liste de vérification - Carrefour retraite",
+	"dateModified": "2026-04-24",
+	"description": "Styles CSS de la page de la liste de vérification",
+	"lang": "en",
+	"altLangPage": "checklist.html",
+	"breadcrumbs": [
+		{
+			"title": "Événements de la vie",
+			"link": "../../../index-fr.html"
+		},
+		{
+			"title": "Carrefour retraite",
+			"link": "../détails-fr.html"
+		}
+	],
+	"css": "../../../src/life-events.css",
+	"script": [
+		{
+			"src": "../../../src/life-events.js"
+		}
+	],
+	"layout": "no-container"
+}
+---
+<div class="retirement-hub">
+	<div class="bg-right bg-norepeat" data-bgimg-srcset="https://wet-boew.github.io/vocab/wb/utilities#no-image 991w, ../../../assets/th-retirement-hub/subpage-banner-right.png 992w">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7">
+					<h1 property="name" id="wb-cont">Liste de vérification</h1>
+					<p class="mrgn-bttm-md">En fonction des réponses que vous avez fournies, voici votre liste personnalisée. Elle comprend des options et des recommandations adaptées à vos besoins.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="gc-featured-link" data-bg-color="#0A747D">
+		<div class="container">
+			<h2 class="wb-inv">Pleins feux sur</h2>
+			<p>Si vous avez besoin d’aide ou de quelqu’un à qui parler, <a class="stretched-link" href="#">consultez notre page de soutien en santé mentale</a>.</p>
+		</div>
+	</section>
+</div>
+<div class="mrgn-tp-lg container retirement-hub">
+	<div data-wb-urlmapping='{
+		"COMMON": {
+			"action": "patch",
+			"source": "#manager1",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/common",
+				"value": "true"
+			}
+		},
+		"q1": {
+			"action": "patch",
+			"source": "#manager1",
+			"match": "^[a-zA-Z0-9-_]+$",
+			"default": "null",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q1__{qval}",
+				"value": "true"
+			}
+		},
+		"q2a": {
+			"action": "patch",
+			"source": "#manager1",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q2a",
+				"value": "GOVERNMENT_PENSIONS_EXPLORE"
+			}
+		},
+		"q2b": {
+			"action": "patch",
+			"source": "#manager1",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q2b",
+				"value": "WORKPLACE_PENSIONS_EXPLORE"
+			}
+		},
+		"q2c": {
+			"action": "patch",
+			"source": "#manager1",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q2c",
+				"value": "PERSONAL_SAVINGS_EXPLORE"
+			}
+		},
+		"q3": {
+			"action": "patch",
+			"source": "#manager1",
+			"match": "^[a-zA-Z0-9-_]+$",
+			"default": "null",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q3__{qval}",
+				"value": "true"
+			}
+		},
+		"q4": {
+			"action": "patch",
+			"source": "#manager1",
+			"match": "^[a-zA-Z0-9-_]+$",
+			"default": "null",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q4__{qval}",
+				"value": "true"
+			}
+		},
+		"q5": {
+			"action": "patch",
+			"source": "#manager1",
+			"match": "^[a-zA-Z0-9-_]+$",
+			"default": "null",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q5__{qval}",
+				"value": "true"
+			}
+		},
+		"q6": {
+			"action": "patch",
+			"source": "#manager1",
+			"match": "^[a-zA-Z0-9-_]+$",
+			"default": "null",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q6__{qval}",
+				"value": "true"
+			}
+		},
+		"q7": {
+			"action": "patch",
+			"source": "#manager1",
+			"match": "^[a-zA-Z0-9-_]+$",
+			"default": "null",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q7__{qval}",
+				"value": "true"
+			}
+		},
+		"q8": {
+			"action": "patch",
+			"source": "#manager1",
+			"match": "^[a-zA-Z0-9-_]+$",
+			"default": "null",
+			"cumulative": true,
+			"patches": {
+				"op": "add",
+				"path": "/q8__{qval}",
+				"value": "true"
+			}
+		},
+		"multiplequery": true
+	}'></div>
+	<section class="nojs-show">
+		<h2 class="wb-inv">Filtres</h2>
+		<noscript>
+			<p>Pour utiliser le filtres, veuillez activer le JavaScript dans les paramètres de votre navigateur.</p>
+		</noscript>
+		<p class="wbdisable-show">Pour utiliser le filtres, veuillez <a href="?wbdisable=false">passer à la version standard</a> de cette page.</p>
+		<p>Affichage de toutes les options et recommandations.</p>
+	</section>
+	<div id="filteredFAQ" class="row wb-tagfilter provisional" data-wb-filter='{
+		"selector": "li",
+		"section": ".wb-tagfilter-items"}
+	'>
+		<section class="col-xs-12 col-md-4 nojs-hide hidden-print">
+			<h2 class="wb-inv">Filtres</h2>
+			<details class="cards wb-details-close provisional" open id="manager1" data-wb-jsonmanager='{ "url": "https://servicecanada.github.io/canada-life-events/assets/th-retirement-hub/checklist/url-mapping.json","name": "jsonParams", "wait": true }'>
+				<summary class="wb-togglex" data-togglex='{"print": "off"}'>Vos réponses (les résultats seront mises à jour automatiquement)</summary>
+				<div id="puppetmaster" class="form-group mrgn-bttm-0">
+					<div hidden>
+						<label><input type="checkbox" name="commonFilters" value="ALL" data-wb-json='{ "url": "#[jsonParams]/common", "type": "prop", "prop": "checked" }'> Informations génériques</label>
+					</div>
+					<fieldset class="p-0 mrgn-bttm-sm chkbxrdio-grp">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>À quel âge souhaitez-vous prendre votre retraite&nbsp;?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="BEFORE_60" data-wb-json='{ "url": "#[jsonParams]/q1__BEFORE_60", "type": "prop", "prop": "checked" }'> Moins de 60 ans</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="BETWEEN_60_65" data-wb-json='{ "url": "#[jsonParams]/q1__BETWEEN_60_65", "type": "prop", "prop": "checked" }'> Entre 60 et 65</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="65_OVER" data-wb-json='{ "url": "#[jsonParams]/q1__65_OVER", "type": "prop", "prop": "checked" }'> À 65 ans et plus</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="ALREADY_RETIRED" data-wb-json='{ "url": "#[jsonParams]/q1__ALREADY_RETIRED", "type": "prop", "prop": "checked" }'> Déjà à la retraite</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="NOT_SURE" data-wb-json='{ "url": "#[jsonParams]/q1__NOT_SURE", "type": "prop", "prop": "checked" }'> Je ne sais pas</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Quelles sources de revenus de retraite souhaitez-vous explorer&nbsp;?</b></legend>
+						<ul class="list-unstyled">
+							<li class="checkbox">
+								<label><input type="checkbox" name="q2aFilters" value="GOVERNMENT_PENSIONS_EXPLORE" data-wb-json='{ "url": "#[jsonParams]/q2a", "type": "prop", "prop": "checked" }'> Pensions publiques</label>
+							</li>
+							<li class="checkbox">
+								<label><input type="checkbox" name="q2bFilters" value="WORKPLACE_PENSIONS_EXPLORE" data-wb-json='{ "url": "#[jsonParams]/q2b", "type": "prop", "prop": "checked" }'> Régimes de retraite d’employeur</label>
+							</li>
+							<li class="checkbox">
+								<label><input type="checkbox" name="q2cFilters" value="PERSONAL_SAVINGS_EXPLORE" data-wb-json='{ "url": "#[jsonParams]/q2c", "type": "prop", "prop": "checked" }'> Épargnes personnelles</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Recevez-vous actuellement des prestations d’invalidité du Régime de pensions du Canada&nbsp;?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q3Filters" value="YES_CPP_D" data-wb-json='{ "url": "#[jsonParams]/q3__YES_CPP_D", "type": "prop", "prop": "checked" }'> Oui</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q3Filters" value="NO_CPP_D" data-wb-json='{ "url": "#[jsonParams]/q3__NO_CPP_D", "type": "prop", "prop": "checked" }'> Non</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Prévoyez-vous travailler pendant votre retraite&nbsp;?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q4Filters" value="YES_WORKING" data-wb-json='{ "url": "#[jsonParams]/q4__YES_WORKING", "type": "prop", "prop": "checked" }'> Oui</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q4Filters" value="NO_WORKING" data-wb-json='{ "url": "#[jsonParams]/q4__NO_WORKING", "type": "prop", "prop": "checked" }'> Non</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q4Filters" value="NOT_SURE_WORKING" data-wb-json='{ "url": "#[jsonParams]/q4__NOT_SURE_WORKING", "type": "prop", "prop": "checked" }'> Je ne sais pas</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Prévoyez-vous vivre à l’extérieur du Canada plus de 6 mois par année à votre retraite&nbsp;?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q5Filters" value="CANADA_PART" data-wb-json='{ "url": "#[jsonParams]/q5__CANADA_PART", "type": "prop", "prop": "checked" }'> Oui</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q5Filters" value="CANADA_FULL" data-wb-json='{ "url": "#[jsonParams]/q5__CANADA_FULL", "type": "prop", "prop": "checked" }'> Non</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Quel est votre état civil actuel&nbsp;?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q6Filters" value="SINGLE" data-wb-json='{ "url": "#[jsonParams]/q6__SINGLE", "type": "prop", "prop": "checked" }'> Célibataire</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q6Filters" value="MARRIED_COMMONLAW" data-wb-json='{ "url": "#[jsonParams]/q6__MARRIED_COMMONLAW", "type": "prop", "prop": "checked" }'> Marié ou conjoint de fait</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q6Filters" value="DIVORCED_SEPARATED" data-wb-json='{ "url": "#[jsonParams]/q6__DIVORCED_SEPARATED", "type": "prop", "prop": "checked" }'> Divorcé ou séparé</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q6Filters" value="WIDOWED" data-wb-json='{ "url": "#[jsonParams]/q6__WIDOWED", "type": "prop", "prop": "checked" }'> Veuf ou veuve</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Voulez-vous savoir comment quelqu'un peut vous aider avec votre pension ou agir en votre nom&nbsp;?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q7Filters" value="YES_HELP" data-wb-json='{ "url": "#[jsonParams]/q7__YES_HELP", "type": "prop", "prop": "checked" }'> Oui</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q7Filters" value="NO_SELF" data-wb-json='{ "url": "#[jsonParams]/q7__NO_SELF", "type": "prop", "prop": "checked" }'> Non</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-0">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Êtes-vous en confiance quand il s’agit de se protégez contre la fraude et les arnaques&nbsp;?</b></legend>
+						<ul class="list-unstyled mrgn-bttm-0">
+							<li class="radio">
+								<label><input type="radio" name="q8Filters" value="VERY_CONFIDENT_FRAUD" data-wb-json='{ "url": "#[jsonParams]/q8__VERY_CONFIDENT_FRAUD", "type": "prop", "prop": "checked" }'> En grande confiance</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q8Filters" value="SOMEWHAT_CONFIDENT_FRAUD" data-wb-json='{ "url": "#[jsonParams]/q8__SOMEWHAT_CONFIDENT_FRAUD", "type": "prop", "prop": "checked" }'> Peu en confiance</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q8Filters" value="NOT_CONFIDENT_FRAUD" data-wb-json='{ "url": "#[jsonParams]/q8__NOT_CONFIDENT_FRAUD", "type": "prop", "prop": "checked" }'> Pas du tout en confiance</label>
+							</li>
+						</ul>
+					</fieldset>
+				</div>
+			</details>
+		</section>
+		<div class="col-xs-12 col-md-8-js">
+			<section>
+				<h2 class="wb-inv">Résultats</h2>
+				<div class="mrgn-tp-xl hidden-md hidden-lg nojs-hide hidden-print"></div>
+				<div id="details-elements">
+					<div class="btn-group nojs-hide hidden-print">
+						<button type="button" class="btn btn-default btn-retirement-hub wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#details-elements&quot;, &quot;type&quot;: &quot;on&quot;}">Tout afficher</button>
+						<button type="button" class="btn btn-default btn-retirement-hub wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#details-elements&quot;, &quot;type&quot;: &quot;off&quot;}">Tout masquer</button>
+					</div>
+					<section>
+						<div class="mrgn-tp-lg hidden-xs hidden-sm"></div>
+						<h3 class="h2 text-retirement-hub mrgn-tp-md">Planifier pour la retraite</h3>
+						<p>Explorez vos options de retraite, déterminez quand commencer à recevoir vos pensions et choisissez ce qui vous convient le mieux.</p>
+						<ul class="wb-tagfilter-items checklist printable-checklist list-unstyled">
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>L'incidence de votre âge sur votre pension</h4></summary>
+									<p>L'âge à laquelle vous choisissez de prendre votre retraite a une incidence sur le moment où vous pouvez toucher vos prestations, la manière dont vous devez en faire la demande et les mesures de planification que vous devriez prendre.</p>
+									<p>Découvrez des façons efficaces de planifier à l'avance&nbsp;:</p>
+									<ul>
+										<li><a href="subpage-fr.html">Préparez votre retraite</a></li>
+										<li><a href="subpage-fr.html">Planifier et épargner pour la retraite</a></li>
+										<li><a href="subpage-fr.html">Quand commencer à recevoir votre pension de retraite du Régime de pensions du Canada</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Outils et calculateurs pour la retraite et les avantages</h4></summary>
+									<ul>
+										<li><a href="subpage.html">Planificateur budgétaire</a></li>
+										<li><a href="subpage-fr.html">Calculatrice du revenu de retraite canadienne</a></li>
+										<li><a href="subpage.html">Estimateur des prestations de la Sécurité de la vieillesse</a></li>
+										<li><a href="subpage-fr.html">Chercheur de prestations</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="GOVERNMENT_PENSIONS_EXPLORE WORKPLACE_PENSIONS_EXPLORE PERSONAL_SAVINGS_EXPLORE" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Sources de revenus à la retraite</h4></summary>
+									<p>Découvrez comment vos pensions publiques, celles de votre travail et vos économies peuvent se compléter pour votre revenu de retraite. Comprendre d’où vient votre argent peut vous aider à fixer des objectifs et faire des choix plus facilement.</p>
+									<section data-wb-tags="GOVERNMENT_PENSIONS_EXPLORE">
+										<h5>Pensions publiques</h5>
+										<ul>
+											<li><a href="subpage-fr.html">Pension de retraite du Régime de pensions du Canada</a></li>
+											<li><a href="subpage-fr.html">Pension de sécurité de la vieillesse</a></li>
+											<li><a href="subpage-fr.html">Supplément de revenu garanti</a></li>
+										</ul>
+										<p><strong>*Résidents ou travailleurs du Québec</strong>, consultez le site <a href="subpage.html">La rente de retraite du Régime de rentes du Québec</a> pour plus de renseignements.</p>
+									</section>
+									<section data-wb-tags="WORKPLACE_PENSIONS_EXPLORE">
+										<h5>Régimes de retraite d’employeur</h5>
+										<ul>
+											<li><a href="subpage-fr.html">Régimes de pension d’employeur</a></li>
+										</ul>
+									</section>
+									<section data-wb-tags="PERSONAL_SAVINGS_EXPLORE">
+										<h5>Épargnes personnelles</h5>
+										<ul>
+											<li><a href="subpage-fr.html">Régimes enregistré d’épargne-retraite</a></li>
+											<li><a href="subpage-fr.html">Compte d’épargne libre d'impôt</a></li>
+										</ul>
+									</section>
+								</details>
+							</li>
+							<li data-wb-tags="YES_CPP_D" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Prestations d'invalidité du Régime de pensions</h4></summary>
+									<p>Les prestations d'invalidité du Régime de pensions du Canada (RPC) aident les personnes de moins de 65 ans qui ont cotisé au RPC et qui ne peuvent plus travailler à cause d’une invalidité grave et de longue durée. Consultez le site <a href="subpage-fr.html">Prestations d'invalidité du régime de pensions du Canada</a> pour plus de renseignements.</p>
+								</details>
+							</li>
+							<li data-wb-tags="WIDOWED" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Autres prestations publiques et aides financières</h4></summary>
+									<p>Découvrez-en davantage sur les autres avantages et soutiens auxquels vous pourriez avoir droit.</p>
+									<ul>
+										<li><a href="subpage-fr.html">Pension de survivant du Régime de pensions du Canada</a>&nbsp;: Si vous êtes le conjoint légal ou le conjoint de fait d'un contributeur au RPC décédé</li>
+										<li><a href="subpage-fr.html">Prestation de décès du Régime de pensions du Canada</a>&nbsp;: Un paiement unique au nom d’un cotisant décédé au RPC</li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="YES_WORKING NOT_SURE_WORKING" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Travailler pendant que vous recevez des pensions publiques</h4></summary>
+									<p>Découvrez comment vos revenus peuvent influencer votre admissibilité aux prestations de pension.</p>
+									<ul>
+										<li><a href="subpage-fr.html">Régime de pension du Canada - Prestation après-retraite</a></li>
+										<li><a href="subpage-fr.html">Exemption de revenus du supplément de revenu garanti</a></li>
+									</ul>
+								</details>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3 class="h2 text-retirement-hub">Présenter une demande pour vos pensions</h3>
+						<p>Présenter une demande pour vos pensions publiques et apprenez comment suivre les détails de votre pension et votre compte.</p>
+						<ul class="wb-tagfilter-items checklist printable-checklist list-unstyled">
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Pensions publiques</h4></summary>
+									<p>Pour faire une demande en ligne, ouvrez une session ou inscrivez-vous à <a href="subpage-fr.html">Mon Service Canada</a>.</p>
+									<p>Pour postuler en personne ou par la poste, vous pouvez remplir une demande papier.</p>
+									<ul>
+										<li><a href="subpage-fr.html">Pension de sécurité de la vieillesse</a></li>
+										<li><a href="subpage-fr.html">Supplément de revenu garanti</a></li>
+										<li><a href="subpage-fr.html">Pension de retraite du Régime de pensions du Canada</a></li>
+									</ul>
+									<p>Utilisez votre compte <a href="subpage-fr.html">Mon Dossier Service Canada</a> pour gérer vos pensions publiques en ligne&nbsp;:</p>
+									<ul>
+										<li>Vérifiez le statut de votre demande</li>
+										<li>Modifiez vos retenues d’impôts sur le revenu, votre adresse et vos informations bancaires</li>
+										<li>Consultez vos paiements de pension et votre historique de cotisations</li>
+										<li>Ajoutez une personne autorisée à communiquer en votre nom</li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="YES_HELP" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Autoriser quelqu’un à vous aider avec votre pension</h4></summary>
+									<p>Vous avez la possibilité de désigner une personne de confiance pour vous aider à gérer vos prestations de retraite ou pour agir en votre nom. Cette démarche peut être utile si vous avez besoin d’assistance pour comprendre les programmes ou effectuer des démarches administratives.</p>
+									<ul>
+										<li><a href="subpage-fr.html">Désignez un représentant dans votre compte</a></li>
+									</ul>
+								</details>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3 class="h2 text-retirement-hub">La vie à la retraite</h3>
+						<p>Trouvez des conseils pratiques pour maximiser votre revenu de retraite, suivre vos paiements et planifier l’avenir en toute confiance.</p>
+						<ul class="wb-tagfilter-items checklist printable-checklist list-unstyled">
+							<li data-wb-tags="GOVERNMENT_PENSIONS_EXPLORE" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Recevoir vos pensions publiques</h4></summary>
+									<ul>
+										<li><a href="subpage-fr.html">Pendant que vous recevez la sécurité de la vieillesse</a></li>
+										<li><a href="subpage-fr.html">Tout en recevant le supplément de revenu garanti</a></li>
+										<li><a href="subpage-fr.html">Une fois votre demande présentée pour votre pension de retraite du Régime de pensions du Canada</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Options de logement, de soins à domicile et de soins de santé</h4></summary>
+									<p>Restez en sécurité et confortable à la maison. Explorez les options de logement, accédez aux services de santé et informez-vous sur les prestations dentaires.</p>
+									<ul>
+										<li><a href="subpage-fr.html">Options de logement pour les aînés</a></li>
+										<li><a href="subpage-fr.html">Soins de santé à domicile et soins continus</a></li>
+										<li><a href="subpage-fr.html">Soins de santé à domicile et communautaires</a></li>
+										<li><a href="subpage-fr.html">Régime canadien de soins dentaires</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="CANADA_PART" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Vivre à l’étranger</h4></summary>
+									<p>L’endroit où vous habitez à la retraite peut avoir une incidence sur vos prestations de retraite. Apprenez-en davantage sur la vie à l'étranger pendant la retraite.</p>
+									<ul>
+										<li><a href="subpage-fr.html">Personnes ayant vécu ou vivant à l'étranger - Pensions et prestations</a></li>
+										<li><a href="subpage-fr.html">Recevoir des paiements (pensions et prestations) de la Sécurité de la vieillesse et du Régime de pensions du Canada à l'étranger</a></li>
+										<li><a href="subpage-fr.html">Personnes vivant à l'étranger&nbsp;: impôt sur les pensions et les prestations</a></li>
+										<li><a href="subpage.html">Prendre sa retraite à l'extérieur du Canada</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex='{"print": "on"}'><h4>Ressources supplémentaires</h4></summary>
+									<ul>
+										<li><a href="subpage-fr.html">Protégez-vous contre les arnaques et la fraude</a></li>
+										<li><a href="subpage-fr.html">Histoires de retraite</a></li>
+										<li><a href="subpage-fr.html">Contactez-nous pour obtenir du soutien</a></li>
+									</ul>
+								</details>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+			<section class="mrgn-tp-lg nojs-hide wbdisable-show hidden-print">
+				<h2 class="wb-inv">Imprimer</h2>
+				<div class="row d-flex align-items-center">
+					<div class="col-md-6">
+						<button class="full-width btn btn-default btn-retirement-hub" onClick="window.print()" data-gc-analytics-customclick="ESDC-EDSC:RH:Print or save as PDF"><span class="fas fa-print" aria-hidden="true"></span> Imprimer ou sauvegarder en PDF</button>
+					</div>
+					<div class="col-md-6 nojs-hide">
+						<a href="#print-instructions" aria-controls="print-instructions" class="overlay-lnk" role="button"><span class="fas fa-question-circle" aria-hidden="true"></span> Comment sauvegarder en PDF</a>
+					</div>
+				</div>
+				<div class="mrgn-tp-xl nojs-show"></div>
+				<section id="print-instructions" class="wb-overlay modal-content overlay-def wb-popup-mid">
+					<header class="modal-header">
+						<h3 class="modal-title">Comment sauvegarder en PDF</h3>
+					</header>
+					<div class="modal-body">
+						<div class="alert alert-info">
+							<p><strong>Note&nbsp;:</strong> Cette fonction est disponible dans la plupart, mais pas dans tous les navigateurs.</p>
+						</div>
+						<ol class="lst-spcd mrgn-bttm-0">
+							<li><strong>Appuyez sur le bouton «&nbsp;Imprimer ou sauvegarder en PDF&nbsp;»</strong> pour ouvrir la boite de dialogue pour imprimer.</li>
+							<li><strong>Sélectionner «&nbsp;Sauvegarder sous PDF&nbsp;»</strong> dans la section destination d’imprimeur.</li>
+							<li>Selon votre navigateur, <strong>appuyez sur le bouton «&nbsp;Imprimer&nbsp;» ou «&nbsp;Sauvegarder&nbsp;»</strong>, choisissez l’endroit ou vous désirez sauvegarder sur votre ordinateur ou appareil mobile puis appuyez sur «&nbsp;Sauvegarder&nbsp;».</li>
+						</ol>
+					</div>
+				</section>
+			</section>
+		</div>
+	</div>
+</div>
+
+<div class="ai-answers-trigger"></div>
