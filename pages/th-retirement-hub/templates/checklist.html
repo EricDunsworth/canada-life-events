@@ -1,0 +1,518 @@
+---
+{
+	"title": "Checklist page layout - Retirement Hub",
+	"dateModified": "2026-04-24",
+	"description": "Checklist page CSS styles",
+	"lang": "en",
+	"altLangPage": "checklist-fr.html",
+	"breadcrumbs": [
+		{
+			"title": "Life events",
+			"link": "../../../index.html"
+		},
+		{
+			"title": "Retirement Hub",
+			"link": "../../retirement-hub.html"
+		}
+	],
+	"css": "../../../src/life-events.css",
+	"script": [
+		{
+			"src": "../../../src/life-events.js"
+		}
+	],
+	"layout": "no-container"
+}
+---
+<div class="retirement-hub">
+	<div class="bg-right bg-norepeat" data-bgimg-srcset="https://wet-boew.github.io/vocab/wb/utilities#no-image 991w, ../../../assets/th-retirement-hub/subpage-banner-right.png 992w">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-7">
+					<h1 property="name" id="wb-cont">Your personalized checklist</h1>
+					<p class="mrgn-bttm-md">Based on the responses you provided, here is your personalized checklist. It includes options and recommendations tailored to your needs.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="gc-featured-link" data-bg-color="#0A747D">
+		<div class="container">
+			<h2 class="wb-inv">Spotlight on</h2>
+			<p>If you need help or someone to talk to, <a class="stretched-link" href="#">visit our mental health support page</a>.</p>
+		</div>
+	</section>
+</div>
+    <div class="mrgn-tp-lg container retirement-hub">
+	<div data-wb-urlmapping="{
+		&quot;COMMON&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/common&quot;,
+				&quot;value&quot;: &quot;true&quot;
+			}
+		},
+		&quot;q1&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;match&quot;: &quot;^[a-zA-Z0-9-_]+$&quot;,
+			&quot;default&quot;: &quot;null&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q1__{qval}&quot;,
+				&quot;value&quot;: &quot;true&quot;
+			}
+		},
+		&quot;q2a&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q2a&quot;,
+				&quot;value&quot;: &quot;GOVERNMENT_PENSIONS_EXPLORE&quot;
+			}
+		},
+		&quot;q2b&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q2b&quot;,
+				&quot;value&quot;: &quot;WORKPLACE_PENSIONS_EXPLORE&quot;
+			}
+		},
+		&quot;q2c&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q2c&quot;,
+				&quot;value&quot;: &quot;PERSONAL_SAVINGS_EXPLORE&quot;
+			}
+		},
+		&quot;q3&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;match&quot;: &quot;^[a-zA-Z0-9-_]+$&quot;,
+			&quot;default&quot;: &quot;null&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q3__{qval}&quot;,
+				&quot;value&quot;: &quot;true&quot;
+			}
+		},
+		&quot;q4&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;match&quot;: &quot;^[a-zA-Z0-9-_]+$&quot;,
+			&quot;default&quot;: &quot;null&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q4__{qval}&quot;,
+				&quot;value&quot;: &quot;true&quot;
+			}
+		},
+		&quot;q5&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;match&quot;: &quot;^[a-zA-Z0-9-_]+$&quot;,
+			&quot;default&quot;: &quot;null&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q5__{qval}&quot;,
+				&quot;value&quot;: &quot;true&quot;
+			}
+		},
+		&quot;q6&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;match&quot;: &quot;^[a-zA-Z0-9-_]+$&quot;,
+			&quot;default&quot;: &quot;null&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q6__{qval}&quot;,
+				&quot;value&quot;: &quot;true&quot;
+			}
+		},
+		&quot;q7&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;match&quot;: &quot;^[a-zA-Z0-9-_]+$&quot;,
+			&quot;default&quot;: &quot;null&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q7__{qval}&quot;,
+				&quot;value&quot;: &quot;true&quot;
+			}
+		},
+		&quot;q8&quot;: {
+			&quot;action&quot;: &quot;patch&quot;,
+			&quot;source&quot;: &quot;#manager1&quot;,
+			&quot;match&quot;: &quot;^[a-zA-Z0-9-_]+$&quot;,
+			&quot;default&quot;: &quot;null&quot;,
+			&quot;cumulative&quot;: true,
+			&quot;patches&quot;: {
+				&quot;op&quot;: &quot;add&quot;,
+				&quot;path&quot;: &quot;/q8__{qval}&quot;,
+				&quot;value&quot;: &quot;true&quot;
+			}
+		},
+		&quot;multiplequery&quot;: true
+	}"></div>
+	<section class="nojs-show">
+		<h2 class="wb-inv">Filters</h2>
+		<noscript>
+			<p>To use the filters, please enable JavaScript in your browser settings.</p>
+		</noscript>
+		<p class="wbdisable-show">To use the filters, please <a href="?wbdisable=false">switch to the standard version</a> of this page.</p>
+		<p>Showing all options and recommendations.</p>
+	</section>
+	<div id="filteredFAQ" class="row wb-tagfilter provisional" data-wb-filter="{
+		&quot;selector&quot;: &quot;li&quot;,
+		&quot;section&quot;: &quot;.wb-tagfilter-items&quot;}
+	">
+		<section class="col-xs-12 col-md-4 nojs-hide hidden-print">
+			<h2 class="wb-inv">Filters</h2>
+			<details class="cards wb-details-close provisional" open id="manager1" data-wb-jsonmanager="{ &quot;url&quot;: &quot;https://servicecanada.github.io/canada-life-events/assets/th-retirement-hub/checklist/url-mapping.json&quot;,&quot;name&quot;: &quot;jsonParams&quot;, &quot;wait&quot;: true }">
+				<summary class="wb-togglex" data-togglex="{&quot;print&quot;: &quot;off&quot;}">Your answers (results will update automatically)</summary>
+				<div id="puppetmaster" class="form-group mrgn-bttm-0">
+					<div hidden>
+						<label><input type="checkbox" name="commonFilters" value="ALL" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/common&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Generic information</label>
+					</div>
+					<fieldset class="p-0 mrgn-bttm-sm chkbxrdio-grp">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>At what age would you like to retire?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="BEFORE_60" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q1__BEFORE_60&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Under 60</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="BETWEEN_60_65" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q1__BETWEEN_60_65&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Between 60 and 65</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="65_OVER" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q1__65_OVER&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> At age 65 and over</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="ALREADY_RETIRED" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q1__ALREADY_RETIRED&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }">Already retired</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q1Filters" value="NOT_SURE" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q1__NOT_SURE&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> I don’t know</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Which sources of retirement income do you want to explore?</b></legend>
+						<ul class="list-unstyled">
+							<li class="checkbox">
+								<label><input type="checkbox" name="q2aFilters" value="GOVERNMENT_PENSIONS_EXPLORE" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q2a&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Public Pensions</label>
+							</li>
+							<li class="checkbox">
+								<label><input type="checkbox" name="q2bFilters" value="WORKPLACE_PENSIONS_EXPLORE" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q2b&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Workplace Pensions</label>
+							</li>
+							<li class="checkbox">
+								<label><input type="checkbox" name="q2cFilters" value="PERSONAL_SAVINGS_EXPLORE" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q2c&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Personal Savings</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Do you currently receive Canada Pension Plan Disability benefits?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q3Filters" value="YES_CPP_D" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q3__YES_CPP_D&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Yes</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q3Filters" value="NO_CPP_D" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q3__NO_CPP_D&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> No</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Do you plan to work during retirement?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q4Filters" value="YES_WORKING" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q4__YES_WORKING&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Yes</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q4Filters" value="NO_WORKING" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q4__NO_WORKING&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> No</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q4Filters" value="NOT_SURE_WORKING" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q4__NOT_SURE_WORKING&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> I don’t know</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Do you plan on living outside of Canada for more than 6 months per year when you retire?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q5Filters" value="CANADA_PART" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q5__CANADA_PART&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Yes</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q5Filters" value="CANADA_FULL" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q5__CANADA_FULL&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> No</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>What is your current marital status?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q6Filters" value="SINGLE" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q6__SINGLE&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Single</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q6Filters" value="MARRIED_COMMONLAW" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q6__MARRIED_COMMONLAW&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Married or common-law</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q6Filters" value="DIVORCED_SEPARATED" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q6__DIVORCED_SEPARATED&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Divorced or separated</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q6Filters" value="WIDOWED" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q6__WIDOWED&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Widowed</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-sm">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>Do you want to know how someone can help you with your pension or act on your behalf?</b></legend>
+						<ul class="list-unstyled">
+							<li class="radio">
+								<label><input type="radio" name="q7Filters" value="YES_HELP" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q7__YES_HELP&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Yes</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q7Filters" value="NO_SELF" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q7__NO_SELF&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> No</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset class="p-0 mrgn-bttm-0">
+						<legend class="mrgn-tp-md small mrgn-bttm-sm"><b>How confident are you about protecting yourself from fraud and scams?</b></legend>
+						<ul class="list-unstyled mrgn-bttm-0">
+							<li class="radio">
+								<label><input type="radio" name="q8Filters" value="VERY_CONFIDENT_FRAUD" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q8__VERY_CONFIDENT_FRAUD&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Very confident</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q8Filters" value="SOMEWHAT_CONFIDENT_FRAUD" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q8__SOMEWHAT_CONFIDENT_FRAUD&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Somewhat confident</label>
+							</li>
+							<li class="radio">
+								<label><input type="radio" name="q8Filters" value="NOT_CONFIDENT_FRAUD" data-wb-json="{ &quot;url&quot;: &quot;#[jsonParams]/q8__NOT_CONFIDENT_FRAUD&quot;, &quot;type&quot;: &quot;prop&quot;, &quot;prop&quot;: &quot;checked&quot; }"> Not at all confident</label>
+							</li>
+						</ul>
+					</fieldset>
+				</div>
+			</details>
+		</section>
+		<div class="col-xs-12 col-md-8-js">
+			<section>
+				<h2 class="wb-inv">Results</h2>
+				<div class="mrgn-tp-xl hidden-md hidden-lg nojs-hide hidden-print"></div>
+				<div id="details-elements">
+					<div class="btn-group nojs-hide hidden-print">
+						<button type="button" class="btn btn-default btn-retirement-hub wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#details-elements&quot;, &quot;type&quot;: &quot;on&quot;}">Expand all</button>
+						<button type="button" class="btn btn-default btn-retirement-hub wb-toggle" data-toggle="{&quot;selector&quot;: &quot;details&quot;, &quot;parent&quot;: &quot;#details-elements&quot;, &quot;type&quot;: &quot;off&quot;}">Collapse all</button>
+					</div>
+					<section>
+						<div class="mrgn-tp-lg hidden-xs hidden-sm"></div>
+						<h3 class="h2 text-retirement-hub mrgn-tp-md">Planning for retirement</h3>
+						<p>Explore your retirement options, when to start collecting your pensions and decide what works for you.</p>
+						<ul class="wb-tagfilter-items checklist printable-checklist list-unstyled">
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>How your age affects your pension</h4></summary>
+									<p>The age you choose to take your retirement affects when you can start receiving your benefits, how you need to apply for them, and what planning steps you should take.</p>
+									<p>Explore effective ways to plan beforehand:</p>
+									<ul>
+										<li><a href="subpage.html">Prepare for retirement</a></li>
+										<li><a href="subpage.html">Planning and saving for retirement</a></li>
+										<li><a href="subpage.html">When to start your Canada Pension Plan retirement pension</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Retirement and Benefit tools and calculators</h4></summary>
+									<ul>
+										<li><a href="subpage.html">Budget Planner</a></li>
+										<li><a href="subpage.html">Canadian Retirement Income Calculator</a></li>
+										<li><a href="subpage.html">Old Age Security Benefits Estimator</a></li>
+										<li><a href="subpage.html">Benefits Finder</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="GOVERNMENT_PENSIONS_EXPLORE WORKPLACE_PENSIONS_EXPLORE PERSONAL_SAVINGS_EXPLORE" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Sources of income in retirement</h4></summary>
+									<p>Learn how your public pensions, workplace pensions and savings can work together for your retirement income. Understanding where your money comes from can help you set goals and make decisions more easily.</p>
+									<section data-wb-tags="GOVERNMENT_PENSIONS_EXPLORE">
+										<h5>Public pensions</h5>
+										<ul>
+											<li><a href="subpage.html">Canada Pension Plan retirement pension</a></li>
+											<li><a href="subpage.html">Old Age Security Pension</a></li>
+											<li><a href="subpage.html">Guaranteed Income Supplement</a></li>
+										</ul>
+										<p><strong>*Quebec residents or workers</strong>, visit <a href="subpage.html">The retirement pension under the Québec Pension Plan</a> site for more information.</p>
+									</section>
+									<section data-wb-tags="WORKPLACE_PENSIONS_EXPLORE">
+										<h5>Workplace pensions</h5>
+										<ul>
+											<li><a href="subpage.html">Employer pension plans</a></li>
+										</ul>
+									</section>
+									<section data-wb-tags="PERSONAL_SAVINGS_EXPLORE">
+										<h5>Personal Savings</h5>
+										<ul>
+											<li><a href="subpage.html">Registered Retirement Savings Plans</a></li>
+											<li><a href="subpage.html">Tax-Free Savings Account</a></li>
+										</ul>
+									</section>
+								</details>
+							</li>
+							<li data-wb-tags="YES_CPP_D" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Canada Pension Plan disability benefits</h4></summary>
+									<p>Canada Pension Plan (CPP) disability benefits help people under 65 who have paid into the CPP and can no longer work because of a severe and long-term disability. Visit the <a href="subpage.html">Canada Pension Plan disability benefits</a> website for more information.</p>
+								</details>
+							</li>
+							<li data-wb-tags="WIDOWED" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Other government benefits and financial support</h4></summary>
+									<p>Learn more about other benefits and support you may be entitled to.</p>
+									<ul>
+										<li><a href="subpage.html">Canada Pension Plan survivor's pension</a>: If you are the legal spouse or common-law partner of a deceased CPP contributor</li>
+										<li><a href="subpage.html">Canada Pension Plan death benefit</a>: A one-time payment on behalf of a deceased CPP contributor</li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="YES_WORKING NOT_SURE_WORKING" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Working while receiving public pensions</h4></summary>
+									<p>Learn how your income can affect your eligibility for pension benefits.</p>
+									<ul>
+										<li><a href="subpage.html">Canada Pension Plan Post-Retirement Benefit</a></li>
+										<li><a href="subpage.html">Guaranteed Income Supplement earnings exemption</a></li>
+									</ul>
+								</details>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3 class="h2 text-retirement-hub">Applying for your pensions</h3>
+						<p>Apply for your public pensions and learn how to keep track of your pension details and account.</p>
+						<ul class="wb-tagfilter-items checklist printable-checklist list-unstyled">
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Public Pensions</h4></summary>
+									<p>To apply online, sign in or register for a <a href="subpage.html">My Service Canada Account</a>.</p>
+									<p>To apply in person or by mail, you must complete a paper application form.</p>
+									<ul>
+										<li><a href="subpage.html">Old Age Security Pension</a></li>
+										<li><a href="subpage.html">Guaranteed Income Supplement</a></li>
+										<li><a href="subpage.html">Canada Pension Plan retirement pension</a></li>
+									</ul>
+									<p>Use your <a href="subpage.html">My Service Canada Account</a> to manage your public pensions online:</p>
+									<ul>
+										<li>Check your application status</li>
+										<li>Change your income tax deduction, address and banking information</li>
+										<li>View you pension payments and contribution history</li>
+										<li>Add a person to consent to communicate on your behalf</li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="YES_HELP" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Designate someone to help you with your pension</h4></summary>
+									<p>You have the possibility to designate a trusted individual to help manage your pension benefits or act on your behalf. This approach can be useful if you need assistance understanding programs or completing administrative procedures.</p>
+									<ul>
+										<li><a href="subpage.html">Appointing a representative to your account</a></li>
+									</ul>
+								</details>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h3 class="h2 text-retirement-hub">Life in retirement</h3>
+						<p>Get helpful tips to maximize your retirement income, track your payments, and plan ahead with confidence.</p>
+						<ul class="wb-tagfilter-items checklist printable-checklist list-unstyled">
+							<li data-wb-tags="GOVERNMENT_PENSIONS_EXPLORE" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Receiving your public pensions</h4></summary>
+									<ul>
+										<li><a href="subpage.html">While receiving Old Age Security</a></li>
+										<li><a href="subpage.html">While receiving Guaranteed Income Supplement</a></li>
+										<li><a href="subpage.html">After you apply for your Canada Pension Plan retirement pension</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Housing, home and health care options</h4></summary>
+									<p>Stay safe and comfortable at home. Explore housing options, access healthcare services, and learn about dental benefits.</p>
+									<ul>
+										<li><a href="subpage.html">Housing options for seniors</a></li>
+										<li><a href="subpage.html">Home and continuing health care</a></li>
+										<li><a href="subpage.html">Home and community health care</a></li>
+										<li><a href="subpage.html">Canadian Dental Care Plan</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="CANADA_PART" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>Living abroad</h4></summary>
+									<p>Where you live when you retire, may have an impact on your pension benefit. Learn more about living outside Canada during retirement.</p>
+									<ul>
+										<li><a href="subpage.html">Lived or living outside of Canada - Pensions and Benefits</a></li>
+										<li><a href="subpage.html">Receiving payment of Old Age Security and Canada Pension Plan benefits outside Canada</a></li>
+										<li><a href="subpage.html">Taxes on pensions and benefits for those outside Canada</a></li>
+										<li><a href="subpage.html">Retiring outside Canada</a></li>
+									</ul>
+								</details>
+							</li>
+							<li data-wb-tags="ALL" class="mrgn-tp-md">
+								<details class="cards">
+									<summary data-togglex="{&quot;print&quot;: &quot;on&quot;}"><h4>More resources</h4></summary>
+									<ul>
+										<li><a href="subpage.html">Protect yourself from scams and fraud</a></li>
+										<li><a href="subpage.html">Retirement stories</a></li>
+										<li><a href="subpage.html">Contact us for support</a></li>
+									</ul>
+								</details>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</section>
+			<section class="mrgn-tp-lg nojs-hide wbdisable-show hidden-print">
+				<h2 class="wb-inv">Print</h2>
+				<div class="row d-flex align-items-center">
+					<div class="col-md-6">
+						<button class="full-width btn btn-default btn-retirement-hub" onclick="window.print()" data-gc-analytics-customclick="ESDC-EDSC:RH:Print or save as PDF"><span class="fas fa-print" aria-hidden="true"></span> Print or save as PDF</button>
+					</div>
+					<div class="col-md-6 nojs-hide">
+						<a href="#print-instructions" aria-controls="print-instructions" class="overlay-lnk" role="button"><span class="fas fa-question-circle" aria-hidden="true"></span> How to save as a PDF</a>
+					</div>
+				</div>
+				<div class="mrgn-tp-xl nojs-show"></div>
+				<section id="print-instructions" class="wb-overlay modal-content overlay-def wb-popup-mid">
+					<header class="modal-header">
+						<h3 class="modal-title">How to save as a PDF</h3>
+					</header>
+					<div class="modal-body">
+						<div class="alert alert-info">
+							<p><strong>Note:</strong> Please be advised that this functionality is available in most, but not all browsers.</p>
+						</div>
+						<ol class="lst-spcd mrgn-bttm-0">
+							<li><strong>Press the “Print or save as PDF” button</strong> to open the print dialog box.</li>
+							<li><strong>Select “Save as PDF”</strong> in the printer destination section.</li>
+							<li>Depending on your browser, <strong>press the “Print” or “Save” button</strong>, choose your desired location on your computer or mobile device to save the document and press “Save”.</li>
+						</ol>
+					</div>
+				</section>
+			</section>
+		</div>
+	</div>
+</div>
+
+<div class="ai-answers-trigger"></div>

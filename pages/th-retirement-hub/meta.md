@@ -29,16 +29,34 @@ pages:
       path: retirement-hub-fr.html
     - title: Landing page layout
       language: en
-      path: landing.html
+      path: templates/landing.html
+    - title: Disposition de la page d’accueil
+      language: fr
+      path: templates/landing-fr.html
+    - title: Subpage layout
+      language: en
+      path: templates/subpage.html
+    - title: Disposition d’une sous-page
+      language: fr
+      path: templates/subpage-fr.html
     - title: Stories page layout
       language: en
-      path: stories.html
-    - title: Questionnaire layout
+      path: templates/stories.html
+    - title: Disposition de la page d’histoires
+      language: fr
+      path: templates/stories-fr.html
+    - title: Questionnaire page layout
       language: en
-      path: questionnaire.html
-    - title: Checklist layout
+      path: templates/questionnaire.html
+    - title: Disposition de la page du questionnaire
+      language: fr
+      path: templates/questionnaire-fr.html
+    - title: Checklist page layout
       language: en
-      path: checklist.html
+      path: templates/checklist.html
+    - title: Disposition de la page de la liste de vérification
+      language: fr
+      path: templates/checklist-fr.html
 sponsor: Eric Dunsworth on behalf of ESDC - Portfolio Web
 
 changes:
