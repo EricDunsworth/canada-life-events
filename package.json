@@ -16,7 +16,7 @@
 	"license": "MIT",
 	"homepage": "https://servicecanada.github.io/canada-life-events/",
 	"devDependencies": {
-		"grunt": "^1.6.1",
+		"grunt": "^1.6.2",
 		"grunt-banner": "^0.6.0",
 		"grunt-contrib-clean": "^2.0.1",
 		"grunt-contrib-cssmin": "^5.0.0",
