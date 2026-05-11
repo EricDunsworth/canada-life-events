@@ -54,6 +54,8 @@ module.exports = function(grunt) {
 						// Errors caused by Jekyll/Liquid logic
 						"Stray end tag “h1”.",
 						"Text not allowed in element “ul” in this context.",
+						"Bad value “{{ example.path }}” for attribute “href” on element “a”: Illegal character in path segment: “{” is not allowed.",
+						"Bad value “{{ example.language }}” for attribute “lang” on element “a”: Subtags must not exceed 8 characters in length.",
 
 						// Info messages
 						"Consider adding a “lang” attribute to the “html” start tag to declare the language of this document.",
@@ -64,7 +66,7 @@ module.exports = function(grunt) {
 				},
 				src: [
 					"*.html",
-					"pages/**/*.html"
+					"{_layouts,pages}/**/*.html"
 				]
 			}
 		},
