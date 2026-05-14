@@ -6,7 +6,8 @@ remote_theme: wet-boew/gcweb-jekyll
 title: Canada.ca life events themes
 
 defaults:
-  - scope:
+  -
+    scope:
       path: "" # Ensure it's applied to all pages
     values:
       layout: default
