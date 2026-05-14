@@ -76,6 +76,21 @@ module.exports = function(grunt) {
 				overrideConfigFile: "eslint.config.mjs"
 			},
 			target: ["Gruntfile.js", "src/life-events.js"]
+		},
+
+		lintspaces: {
+			all: {
+				src: [
+					"*",
+					"{_layouts,assets,pages,src}/**/*",
+					"!**/*.png"
+					// TODO: Exclude JS files once ESLint's settings fully match lintspaces (i.e. enforcing trailing spaces and final newline)
+				],
+				options: {
+					editorconfig: ".editorconfig",
+					indentationGuess: true
+				}
+			}
 		}
 	});
 
@@ -85,6 +100,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks("grunt-banner");
 	grunt.loadNpmTasks("grunt-html");
 	grunt.loadNpmTasks("grunt-eslint");
+	grunt.loadNpmTasks("grunt-lintspaces");
 
 	// Task to fix line endings after minification
 	grunt.registerTask("fixLineEndings", function () {
@@ -93,5 +109,5 @@ module.exports = function(grunt) {
 		grunt.file.write("dist/life-events.min.css", content);
 	});
 
-	grunt.registerTask("default", ["clean", "htmllint", "eslint", "uglify", "cssmin", "usebanner", "fixLineEndings"]);
+	grunt.registerTask("default", ["clean", "htmllint", "eslint", "lintspaces", "uglify", "cssmin", "usebanner", "fixLineEndings"]);
 };
