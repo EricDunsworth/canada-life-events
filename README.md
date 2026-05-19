@@ -7,18 +7,18 @@ This project is a Jekyll-based website template using the GCWeb theme. It integr
 ## Roadmap
 
 - **v1.x (in development):**
-  - Create a Retirement Hub (RH) 2.0 thematic:
-    - Use the [draft retirement thematic](https://github.com/wet-boew/GCWeb/pull/2691) as a starting point
+    - Create a Retirement Hub (RH) 2.0 thematic:
+        - Use the [draft retirement thematic](https://github.com/wet-boew/GCWeb/pull/2691) as a starting point
 - v2.x:
-  - Integrate pre-existing life event thematics:
-    - [What to do when someone dies (th-empathy)](https://wet-boew.github.io/GCWeb/m%C3%A9li-m%C3%A9lo/th-empathy/d%C3%A9tails-en.html)
-    - [Welcoming a child (th-vitality)](https://wet-boew.github.io/GCWeb/m%C3%A9li-m%C3%A9lo/th-vitality/d%C3%A9tails-en.html)
+    - Integrate pre-existing life event thematics:
+        - [What to do when someone dies (th-empathy)](https://wet-boew.github.io/GCWeb/m%C3%A9li-m%C3%A9lo/th-empathy/d%C3%A9tails-en.html)
+        - [Welcoming a child (th-vitality)](https://wet-boew.github.io/GCWeb/m%C3%A9li-m%C3%A9lo/th-vitality/d%C3%A9tails-en.html)
 - v3.x:
-  - Consolidate custom CSS/JS where possible (i.e. "share" the same CSS across all life events, use event-specific overrides for colour schemes, etc...)
+    - Consolidate custom CSS/JS where possible (i.e. "share" the same CSS across all life events, use event-specific overrides for colour schemes, etc...)
 - Ongoing:
-  - Standardize handy features and utility styles in WET/GCWeb (e.g. [tag filter "OR" option](https://github.com/wet-boew/wet-boew/pull/9904), `d-md-flex` class, etc...)
-  - Backport bug fixes to WET/GCWeb (e.g. toggle `"print": "on"` setting keeping `details` elements expanded after printing, JSON manager requiring absolute JSON URLs, etc...)
-  - Add "net-new" life events
+    - Standardize handy features and utility styles in WET/GCWeb (e.g. [tag filter "OR" option](https://github.com/wet-boew/wet-boew/pull/9904), `d-md-flex` class, etc...)
+    - Backport bug fixes to WET/GCWeb (e.g. toggle `"print": "on"` setting keeping `details` elements expanded after printing, JSON manager requiring absolute JSON URLs, etc...)
+    - Add "net-new" life events
 
 ## Features
 
@@ -53,26 +53,26 @@ Before you begin, ensure you have the following installed:
 ### Installation
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-repo/canada-life-events.git
-   cd canada-life-events
-   ```
+    ```sh
+    git clone https://github.com/your-repo/canada-life-events.git
+    cd canada-life-events
+    ```
 2. Install dependencies:
-   ```sh
-   bundle install
-   npm install
-   ```
+    ```sh
+    bundle install
+    npm install
+    ```
 3. Build the assets and serve the site locally:
-   ```sh
-   bundle exec jekyll serve
-   ```
-   The site should now be accessible at `http://localhost:4000/`.
+    ```sh
+    bundle exec jekyll serve
+    ```
+    The site should now be accessible at `http://localhost:4000/`.
 
 ### Build distribution files
 1. To build the distribution files, run:
-   ```sh
-   grunt
-   ```
+    ```sh
+    grunt
+    ```
 2. The processed files will be available in the `dist/` directory.
 
 ## File structure

@@ -636,8 +636,8 @@ ul:where(.list-unstyled .list-unstyled ul) ul {
 
 /*Undo https://github.com/wet-boew/wet-boew/pull/10077's changes to summary arrows*/
 .retirement-hub details summary {
-    padding: 5px 15px;
-    text-indent: revert;
+	padding: 5px 15px;
+	text-indent: revert;
 }
 
 /*Make the landing page's calculator box use any "leftover" height (in case the cards on the right surpass the left panel's total height)*/
