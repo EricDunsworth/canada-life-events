@@ -5,53 +5,60 @@ import { fileURLToPath } from "node:url";
 import js from "@eslint/js";
 import { FlatCompat } from "@eslint/eslintrc";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
+const __filename = fileURLToPath( import.meta.url );
+const __dirname = path.dirname( __filename );
+const compat = new FlatCompat( {
 	baseDirectory: __dirname,
 	recommendedConfig: js.configs.recommended,
 	allConfig: js.configs.all
-});
+} );
 
-export default defineConfig([{
-	extends: compat.extends("eslint:recommended"),
+export default defineConfig( [ {
+	extends: compat.extends( "eslint:recommended", "jquery" ),
 
 	languageOptions: {
 		globals: {
 			...globals.browser,
-			...globals.node,
 			...globals.jquery,
-			DOMPurify: "readonly",
-			JSON: true,
 			wb: true,
-		},
-
-		ecmaVersion: 11,
-		sourceType: "module",
+			Modernizr: true,
+			yepnope: true,
+			JSON: true,
+			DOMPurify: "readonly"
+		}
 	},
 
 	rules: {
-		indent: ["error", "tab", {
+		indent: [ "error", "tab", {
 			outerIIFEBody: 0,
-		}],
+			SwitchCase: 1
+		} ],
 
-		eqeqeq: [2, "allow-null"],
+		eqeqeq: [ 2, "allow-null" ],
 		"no-eq-null": 2,
 
-		"no-unused-expressions": [2, {
-			allowTernary: true,
-		}],
+		"no-unused-expressions": [ 2, {
+			allowTernary: true
+		} ],
 
-		"wrap-iife": [2, "any"],
+		"wrap-iife": [ 2, "any" ],
 
-		"no-unused-vars": [2, {
-			varsIgnorePattern: "wet_boew_",
-		}],
+		"no-unused-vars": [ 2, {
+			varsIgnorePattern: "wet_boew_"
+		} ],
 
 		camelcase: 0,
-		"max-len": [2, 500],
+		"max-len": [ 2, 500 ],
 		"no-irregular-whitespace": 2,
 		"no-nested-ternary": 0,
-		"linebreak-style": 0,
-	},
-}]);
+		"linebreak-style": 0
+	}
+}, {
+	files: [ "eslint.config.mjs", "Gruntfile.js" ],
+
+	languageOptions: {
+		globals: {
+			...globals.node
+		}
+	}
+} ] );
