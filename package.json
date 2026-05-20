@@ -16,6 +16,9 @@
 	"license": "MIT",
 	"homepage": "https://servicecanada.github.io/canada-life-events/",
 	"devDependencies": {
+		"eslint": "^10.4.0",
+		"eslint-config-jquery": "^3.0.2",
+		"globals": "^17.6.0",
 		"grunt": "^1.6.2",
 		"grunt-banner": "^0.6.0",
 		"grunt-contrib-clean": "^2.0.1",

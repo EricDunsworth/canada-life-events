@@ -1,9 +1,9 @@
-module.exports = function(grunt) {
-	grunt.initConfig({
-		pkg: grunt.file.readJSON("package.json"),
+module.exports = function( grunt ) {
+	grunt.initConfig( {
+		pkg: grunt.file.readJSON( "package.json" ),
 
 		clean: {
-			dist: ["dist"]
+			dist: [ "dist" ]
 		},
 
 		uglify: {
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
 
 			dist: {
 				files: {
-					"dist/life-events.min.js": ["src/life-events.js"]
+					"dist/life-events.min.js": [ "src/life-events.js" ]
 				}
 			}
 		},
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 		cssmin: {
 			dist: {
 				files: {
-					"dist/life-events.min.css": ["src/life-events.css"]
+					"dist/life-events.min.css": [ "src/life-events.css" ]
 				}
 			}
 		},
@@ -47,6 +47,7 @@ module.exports = function(grunt) {
 			all: {
 				options: {
 					ignore: [
+
 						// Errors
 						"Non-space characters found without seeing a doctype first. Expected “<!DOCTYPE html>”.",
 						"Element “head” is missing a required instance of child element “title”.",
@@ -75,7 +76,7 @@ module.exports = function(grunt) {
 			options: {
 				overrideConfigFile: "eslint.config.mjs"
 			},
-			target: ["Gruntfile.js", "src/life-events.js"]
+			target: [ "Gruntfile.js", "src/life-events.js", "eslint.config.mjs" ]
 		},
 
 		lintspaces: {
@@ -84,6 +85,7 @@ module.exports = function(grunt) {
 					"*",
 					"{_layouts,assets,pages,src}/**/*",
 					"!**/*.png"
+
 					// TODO: Exclude JS files once ESLint's settings fully match lintspaces (i.e. enforcing trailing spaces and final newline)
 				],
 				options: {
@@ -92,22 +94,22 @@ module.exports = function(grunt) {
 				}
 			}
 		}
-	});
+	} );
 
-	grunt.loadNpmTasks("grunt-contrib-clean");
-	grunt.loadNpmTasks("grunt-contrib-uglify");
-	grunt.loadNpmTasks("grunt-contrib-cssmin");
-	grunt.loadNpmTasks("grunt-banner");
-	grunt.loadNpmTasks("grunt-html");
-	grunt.loadNpmTasks("grunt-eslint");
-	grunt.loadNpmTasks("grunt-lintspaces");
+	grunt.loadNpmTasks( "grunt-contrib-clean" );
+	grunt.loadNpmTasks( "grunt-contrib-uglify" );
+	grunt.loadNpmTasks( "grunt-contrib-cssmin" );
+	grunt.loadNpmTasks( "grunt-banner" );
+	grunt.loadNpmTasks( "grunt-html" );
+	grunt.loadNpmTasks( "grunt-eslint" );
+	grunt.loadNpmTasks( "grunt-lintspaces" );
 
 	// Task to fix line endings after minification
-	grunt.registerTask("fixLineEndings", function () {
-		let content = grunt.file.read("dist/life-events.min.css");
-		content = content.replace(/\r\n?/g, "\n");
-		grunt.file.write("dist/life-events.min.css", content);
-	});
+	grunt.registerTask( "fixLineEndings", function( ) {
+		let content = grunt.file.read( "dist/life-events.min.css" );
+		content = content.replace( /\r\n?/g, "\n" );
+		grunt.file.write( "dist/life-events.min.css", content );
+	} );
 
-	grunt.registerTask("default", ["clean", "htmllint", "eslint", "lintspaces", "uglify", "cssmin", "usebanner", "fixLineEndings"]);
+	grunt.registerTask( "default", [ "clean", "htmllint", "eslint", "lintspaces", "uglify", "cssmin", "usebanner", "fixLineEndings" ] );
 };
