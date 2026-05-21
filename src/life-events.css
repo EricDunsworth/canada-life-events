@@ -22,9 +22,9 @@ h1#wb-cont.retirement-hub {
 }
 
 .cards {
-	padding: 20px;
-	box-shadow: 0px 2px 3px 0px #cccccc;
 	border-radius: 10px;
+	box-shadow: 0px 2px 3px 0px #cccccc;
+	padding: 20px;
 }
 
 .btn-retirement-hub.btn-primary, .retirement-hub .wb-steps.quiz .btn-primary {
@@ -67,8 +67,8 @@ h1#wb-cont.retirement-hub {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	border: #0A747D solid 1px;
 	background-color: #EEE;
+	border: #0A747D solid 1px;
 	color: #EEE;
 }
 .retirement-hub .wb-steps.quiz progress::-webkit-progress-bar {
@@ -373,8 +373,8 @@ ul:where(.list-unstyled .list-unstyled ul) ul {
 
 /*Extras for the checklist page*/
 .retirement-hub details.cards {
-	padding-top: 0;
 	padding-bottom: 0;
+	padding-top: 0;
 }
 
 .retirement-hub details.cards[open] {
@@ -615,10 +615,10 @@ ul:where(.list-unstyled .list-unstyled ul) ul {
 
 /*Make the checklist results column thinner in JS mode... otherwise, let it gobble-up as much width as it wants (via col-xs-12)*/
 .js:not(.wb-disable) .col-md-8-js {
-	position: relative;
 	min-height: 1px;
-	padding-right: 15px;
 	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
 }
 
 @media (min-width: 992px) {
