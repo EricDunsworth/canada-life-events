@@ -16,7 +16,7 @@ module.exports = {
 
 		// Suppress stylelint-config-standard errors
 		"comment-empty-line-before": null, // Overly aggressive, deliberately using adjacent comment blocks for line-like comments and unused selectors
-		"media-feature-range-notation": "prefix", // WET's media query notation
+		"media-feature-range-notation": "prefix", // WET's traditional media query notation, "context" preset caused controversy for being too new
 		"number-max-precision": null, // Fails on a re-declaration of a Bootstrap grid's properties
 
 		// Additional rule from stylelint-order plugin
