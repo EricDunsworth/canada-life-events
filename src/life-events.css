@@ -48,22 +48,26 @@ h1#wb-cont.retirement-hub {
 	color: #0A747D;
 }
 
-.retirement-hub .cards.dark-hover:hover {
+.retirement-hub .cards.dark-hover:hover,
+.retirement-hub .cards.dark-hover:focus-within {
 	background-color: #0A747D;
 	color: white;
 }
 
-.retirement-hub .cards.dark-hover:hover a {
+.retirement-hub .cards.dark-hover:hover a,
+.retirement-hub .cards.dark-hover:focus-within a {
 	background-color: #0A747D;
 	color: white;
 }
 
-.retirement-hub .cards.light-hover:hover {
+.retirement-hub .cards.light-hover:hover,
+.retirement-hub .cards.light-hover:focus-within {
 	background-color: #EEE;
 	color: black;
 }
 
-.retirement-hub .cards.light-hover:hover a {
+.retirement-hub .cards.light-hover:hover a,
+.retirement-hub .cards.light-hover:focus-within a {
 	color: black;
 }
 
@@ -140,11 +144,6 @@ h1#wb-cont.retirement-hub {
 
 .retirement-hub .cards-border .glyphicon {
 	color: #0A747D;
-}
-
-/* TODO: Makes the link hover effect work when an INNER link is focused into via keyboard */
-.retirement-hub .cards.light-hover:focus-within {
-	background-color: #EEE;
 }
 
 .retirement-hub .media-left {
@@ -410,6 +409,12 @@ ul:where(.list-unstyled .list-unstyled ul) ul {
 	padding-bottom: 20px;
 }
 
+/* Undo https://github.com/wet-boew/wet-boew/pull/10077's changes to summary arrows */
+.retirement-hub details summary {
+	padding: 5px 15px;
+	text-indent: revert;
+}
+
 .retirement-hub details.cards > summary {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
@@ -661,12 +666,6 @@ ul:where(.list-unstyled .list-unstyled ul) ul {
 	display: block !important;
 } */
 /* NOTE: Had to undo it and remove nojs-show classes from tag filter items... that selector couldn't handle showing all items when nothing was "tagged-out"... couldn't come up with another selector that could handle that scenario. */
-
-/* Undo https://github.com/wet-boew/wet-boew/pull/10077's changes to summary arrows */
-.retirement-hub details summary {
-	padding: 5px 15px;
-	text-indent: revert;
-}
 
 /* Make the landing page's calculator box use any "leftover" height (in case the cards on the right surpass the left panel's total height) */
 /* Note: Port of namesake class from Bootstrap 4.1 and over */

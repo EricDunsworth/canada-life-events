@@ -2,6 +2,9 @@
 module.exports = {
 
 	plugins: [ "@double-great/stylelint-a11y" ],
+	extends: [
+		"@double-great/stylelint-a11y/recommended"
+	],
 	rules: {
 
 		// "alpha-value-notation": "number", //REVIEWED
@@ -39,7 +42,7 @@ module.exports = {
 			],
 			rules: {
 				// Suppress stylelint-config-recommended errors
-				//"no-duplicate-selectors": null,
+				"no-duplicate-selectors": null,
 				//"no-descending-specificity": null, // Extremely slow //partially-REVIEWED
 
 				// Suppress stylelint-config-standard errors
