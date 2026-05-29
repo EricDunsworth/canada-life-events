@@ -1,9 +1,13 @@
 /** @type {import('stylelint').Config} */
 module.exports = {
 
-	plugins: [ "@double-great/stylelint-a11y" ],
+	plugins: [
+		"@double-great/stylelint-a11y",
+		"stylelint-order"
+	],
 	extends: [
-		"@double-great/stylelint-a11y/recommended"
+		"@double-great/stylelint-a11y/recommended",
+		"stylelint-config-standard"
 	],
 	rules: {
 
@@ -28,30 +32,16 @@ module.exports = {
 		// "a11y/no-outline-none": null,
 		// "a11y/no-text-align-justify": null, // Bootstrap 3.4.x comes with a .text-justify class
 		// "a11y/selector-pseudo-class-focus": null
-	},
-	overrides: [
-		{
-			files: [
-				"**/*.css"
-			],
-			extends: [
-				"stylelint-config-standard"
-			],
-			plugins: [
-				"stylelint-order"
-			],
-			rules: {
-				// Suppress stylelint-config-recommended errors
-				"no-duplicate-selectors": null,
-				//"no-descending-specificity": null, // Extremely slow //partially-REVIEWED
 
-				// Suppress stylelint-config-standard errors
-				"comment-empty-line-before": null, //REVIEWED... might be too aggressive
-				"number-max-precision": null, //REVIEWED... can't undo it since what's failing is a redeclaration of a Bootstrap grid's properties... ugh
+		// Suppress stylelint-config-recommended errors
+		"no-duplicate-selectors": null,
+		//"no-descending-specificity": null, // Extremely slow //partially-REVIEWED
 
-				// Additional rules for replacing sass-lint
-				"order/properties-alphabetical-order": true // keep this one enabled
-			}
-		}
-	]
+		// Suppress stylelint-config-standard errors
+		"comment-empty-line-before": null, //REVIEWED... might be too aggressive
+		"number-max-precision": null, //REVIEWED... can't undo it since what's failing is a redeclaration of a Bootstrap grid's properties... ugh
+
+		// Additional rules for replacing sass-lint
+		"order/properties-alphabetical-order": true // keep this one enabled
+	}
 };
